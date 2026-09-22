@@ -1,0 +1,24 @@
+# User-specific files and environments
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[LLEe]og/
+[LLEe]ogs/
+
+# Visual Studio / IDE cache files
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.workspace
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/

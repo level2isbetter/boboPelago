@@ -8,6 +8,32 @@ using UnityEngine;
 
 namespace BoboBayArchipelago
 {
+    public static class BoboDebug
+    {
+        public static void DumpItemSpawnMembers()
+        {
+            if (!Plugin.DebugLoggingEnabled.Value) return;
+
+            var flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static;
+
+            void Dump(Type type, string nameFilter)
+            {
+                foreach (var method in type.GetMethods(flags))
+                {
+                    if (method.Name.IndexOf(nameFilter, StringComparison.OrdinalIgnoreCase) < 0) continue;
+                    if (method.IsSpecialName) continue;
+                    var parameters = string.Join(", ", Array.ConvertAll(method.GetParameters(),
+                        parameter => parameter.ParameterType.Name + " " + parameter.Name));
+                    Plugin.Log?.LogInfo($"METHOD  {type.Name}.{method.Name}({parameters}) -> {method.ReturnType.Name}");
+                }
+            }
+
+            Dump(typeof(Item), "Spawn");
+            Dump(typeof(Item), "Despawn");
+            Dump(typeof(Garden), "ItemInGarden");
+        }
+    }
+
     [HarmonyPatch(typeof(GardenManager), "Awake")]
     public static class NormalCompetitionDumpPatch
     {
