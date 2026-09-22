@@ -1,0 +1,942 @@
+[Info   :BoboBay.Archipelago] [APDebug] Found 940 ItemScriptableObjects:
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Leftover Pizza' | Title: 'Leftover Pizza' | Type: Snack | Price: 1
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Palmwelon' | Title: 'Palmwelon' | Type: Snack | Price: 25
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cat_Whiskers' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BusinessGlasses_Gold' | Title: 'Business Glasses' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_CrackthrustSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_HotTop' | Title: 'Hot Top Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_ConcernedEyes' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DarkGlasses_Yellow' | Title: 'Sassy Sunglasses' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Goldenana' | Title: 'Goldenana' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shoes_A_White' | Title: 'Sneakers' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bunny_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_MasqueradeSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bunny_Cracker' | Title: 'Bunny Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Feet_Bobo' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_Gear' | Title: 'Gear Star Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CoolHelmet_Secondary' | Title: 'Cool Helmet' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_CosmicStarSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_DashClassic' | Title: 'Dash Classic Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_WildOpenSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CopGlasses_Silver' | Title: 'Aviators' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Blue' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Eyebrows' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Monkey_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Big_Black' | Title: 'Top Hat' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyHat_Black' | Title: 'Cowboy Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gators_White' | Title: 'Gators' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BeastStarSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_HotTopSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mustache_Brown' | Title: 'Mustache' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Monkey_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_HopClassic' | Title: 'Hop Classic Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Rhino_Cracker' | Title: 'Rhino Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Key_Gold' | Title: 'Wind-Up Key' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'MohawkHelmet' | Title: 'Mohawk Helmet' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Rhino_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Sneakers_A_Eyes' | Title: 'New Sneakers' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Effect_PuffParticles' | Title: 'Puffs' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PixelGlasses_Black' | Title: 'Pixel Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cheetanana' | Title: 'Cheetanana' | Type: Snack | Price: 25
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_StuffedAnimal' | Title: 'Bunny Stuffed Animal' | Type: Toy | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Skyberry' | Title: 'Skyberry' | Type: Snack | Price: 20
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Angel_Halo' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CoolHelmet_White' | Title: 'Cool Helmet' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cat_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FinalStarSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cat_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_ThingBowl' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_FruitCup' | Title: 'Fruit Cup Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyHat_Red' | Title: 'Pointy Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_TheFinalStar' | Title: 'The Final Star Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bat_Cracker' | Title: 'Bat Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Wreath_Green' | Title: 'Wreath' | Type: Accessory | Price: 220
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Angel_Wings' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_Crackthrust' | Title: 'Crackthrust Cup Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Galaxyberry' | Title: 'Galaxyberry' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_GumballCup' | Title: 'Gumball Cup Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FruitCupSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_EnergyDrink_Hype' | Title: 'Crackthrust Hype' | Type: Juice | Price: 180
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Cracker' | Title: 'Penguin Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Monkey Cracker' | Title: 'Monkey Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'StrawHat_Green' | Title: 'Straw Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_Beast' | Title: 'Beast Star Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bat_Teeth' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'MustacheAndMonocle' | Title: 'Mustache and Monocle' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyHat_Green' | Title: 'Pointy Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Rhino_Horn' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Lava Milk' | Title: 'Lava Milk' | Type: Snack | Price: 45
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shield_A_Green' | Title: 'Shield' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cat_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Effect_Stars' | Title: 'Stars' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClassicPartyHat_Black' | Title: 'Classic Party Hat' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cat_Cracker' | Title: 'Cat Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Key_Silver' | Title: 'Wind-Up Key' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_BalancePole' | Title: 'Balance Pole' | Type: Trait | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cat_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_ThingBowl' | Title: 'Thing Bowl Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_NoHead' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_Masquerade' | Title: 'Masquerade Cup Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_IronClassic' | Title: 'Iron Classic Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_Kelp' | Title: 'Seagrass Cup Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_Cosmic' | Title: 'Cosmic Star Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Fuego de amor' | Title: 'Fuego de amor' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_GearStarSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_WildOpen' | Title: 'The Wild Open Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mustache_Black' | Title: 'Mustache' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Fedora_Black' | Title: 'Cool Fedora' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_JugClassic' | Title: 'Jug Classic Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bunny_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_FairyCup' | Title: 'Fairy Cup Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeartGlasses_Pink' | Title: 'Heart Glasses' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Sunwelon' | Title: 'Sunwelon' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBow_Secondary' | Title: 'Big Bow' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_MythicStarSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FairyCupSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HandBag_White' | Title: 'Hand Bag' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_D_Orange_Orange' | Title: 'Cute Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KelpMustache' | Title: 'Kelp Mustache' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_EnergyDrink_Munchie' | Title: 'Crackthrust Munchie' | Type: Juice | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Kite_A' | Title: 'Rainbow Kite' | Type: Toy | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Hagoromo_Yellow' | Title: 'Hagoromo' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Small_Green' | Title: 'Small Top Hat' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Beak_Bobo' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_GumballCup' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Skimboard' | Title: 'Skimboard' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_SeagrassCupSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Black' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_LargeHead' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_Mythic' | Title: 'Mythic Star Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'GoldenTotonut' | Title: 'Golden Totonut' | Type: Snack | Price: 50
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBow_Red' | Title: 'Big Bow' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bat_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Rosa de amor' | Title: 'Rosa de amor' | Type: Snack | Price: 25
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_CosmicEcologists_StarGarden' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FedoraNormal_Black' | Title: 'Fedora' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Waterwelon' | Title: 'Waterwelon' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bat_Wings' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Angel_Cracker' | Title: 'Angel Cracker' | Type: Snack | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SagaMedal_WetClassic' | Title: 'Wet Classic Medal' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_SteelChair' | Title: 'Steel Chair' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Orange Shaved Ice' | Title: 'Orange Shaved Ice' | Type: Snack | Price: 30
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Cracker' | Title: 'Dragon Cracker' | Type: Snack | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Goldenana' | Title: 'Juicy Goldenana' | Type: Snack | Price: 70
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_Secondary' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_A' | Title: 'Rugged Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_TrainerCube' | Title: 'Trainer Cube' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Secondary' | Title: 'Baseball Cap' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Chocolate Donut' | Title: 'Chocolate Donut' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Cute_Pink' | Title: 'Cute Bed' | Type: Other | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Rosenana' | Title: 'Rosenana' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Snout' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Cyan' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Walrus_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Climb' | Title: 'Climb Juice' | Type: Juice | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RoundTent_Red' | Title: 'Rount Tent Bed' | Type: Other | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipSunGlasses_Eyes' | Title: 'Hip Glasses' | Type: Accessory | Price: 180
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_E_Pink' | Title: 'Serious Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Fignut' | Title: 'Fignut' | Type: Snack | Price: 12
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_PlyoBox' | Title: 'Plyo Box' | Type: Trait | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'The Loaf' | Title: 'The Loaf' | Type: Snack | Price: 25
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_BlueCamo' | Title: 'Bucket Hat' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Smoothie De Amor Bowl' | Title: 'Flarebud Bowl' | Type: Snack | Price: 33
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_Burger' | Title: 'Improbable Burger' | Type: Snack | Price: 410
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Fuego de amor' | Title: 'Juicy Fuego de amor' | Type: Snack | Price: 85
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Swim' | Title: 'Swim Juice' | Type: Juice | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Coral de amor' | Title: 'Old Coral de amor' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Strength' | Title: 'Strength Juice' | Type: Juice | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Walrus_Tusks' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shoes_A_Eyes' | Title: 'Sneakers' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Jump' | Title: 'Jump Juice' | Type: Juice | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SwimGoggles_Secondary' | Title: 'Swim Goggles' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Wings' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Leafberry' | Title: 'Leafberry' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Rosenana' | Title: 'Old Rosenana' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Baked_Cake' | Title: 'Cake' | Type: Snack | Price: 52
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_ToyCar_A' | Title: 'Red Toy Car' | Type: Toy | Price: 170
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pie - Banana Cream' | Title: 'Banana Cream Pie' | Type: Snack | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Antlers' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Lockpick' | Title: 'Lockpick' | Type: Trait | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipGlasses_Secondary' | Title: 'Hip Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Coral de amor' | Title: 'Coral de amor' | Type: Snack | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BoboSeedlingItemSO' | Title: 'Bobo Seedling' | Type: Other | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totonut' | Title: 'Totonut' | Type: Snack | Price: 8
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_Sushi' | Title: 'Sushi' | Type: Snack | Price: 390
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_BasicSleepingBag_Black' | Title: 'Basic Sleeping Bag' | Type: Other | Price: 270
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeadRock_Big' | Title: 'Big Rock' | Type: Accessory | Price: 20
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Walrus_Cracker' | Title: 'Walrus Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BoboSproutItemSO' | Title: 'Bobo Sprout' | Type: Other | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_BRL_Logo' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_ResistanceBand' | Title: 'Resistance Band' | Type: Trait | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_PaddleBall' | Title: 'Paddle Ball' | Type: Toy | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'StrawHat_Blue' | Title: 'Straw Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_FestivalFan' | Title: 'Festival Fan' | Type: Toy | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BentoBox_Low' | Title: 'Low Quality Bento Box' | Type: Snack | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Candy Blue' | Title: 'Blue Candy' | Type: Snack | Price: 6
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_FakeID' | Title: 'Fake ID' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Grave' | Title: 'Grave Bed' | Type: Other | Price: 1100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Yoyo_C' | Title: 'Pink Yo-yo' | Type: Toy | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Doubloon_Night' | Title: 'Night Doubloon' | Type: Toy | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Teapot' | Title: 'Teapot' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Glider' | Title: 'Glider' | Type: Trait | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Gun' | Title: 'Gun' | Type: Trait | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Doubloon_Ocean' | Title: 'Ocean Doubloon' | Type: Toy | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BentoBox_Medium' | Title: 'Medium Quality Bento Box' | Type: Snack | Price: 20
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_SlotMachine' | Title: 'Slot Machine' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Dumbbell' | Title: 'Dumbbell' | Type: Trait | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Goldenana' | Title: 'Old Goldenana' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Vanilla Donut' | Title: 'Vanilla Donut' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Candy Green' | Title: 'Green Candy' | Type: Snack | Price: 6
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Kite_C' | Title: 'Sun Kite' | Type: Toy | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Fuego de amor' | Title: 'Old Fuego de amor' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_FishingRod' | Title: 'Fishing Rod' | Type: Trait | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Shovel' | Title: 'Shovel' | Type: Trait | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_JumpRope' | Title: 'Jump Rope' | Type: Trait | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_GoldBar' | Title: 'Gold Bar' | Type: Toy | Price: 85
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Skillet' | Title: 'Skillet' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Glowing Carved Pumpkin' | Title: 'Glowing Carved Pumpkin' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Trident' | Title: 'Trident' | Type: Trait | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_LumiStar' | Title: 'Lumi Star' | Type: Trait | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_ToyCar_B' | Title: 'Blue Toy Car' | Type: Toy | Price: 170
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_StickyHand' | Title: 'Sticky Hand' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_PocketSand' | Title: 'Pile of Sand' | Type: Trait | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Kite_D' | Title: 'Cool Kite' | Type: Toy | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Waterwelon' | Title: 'Old Waterwelon' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Teleporter' | Title: 'Teleporter' | Type: Trait | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BoneOnBack' | Title: 'Bone' | Type: Accessory | Price: 40
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Funnel' | Title: 'Funnel' | Type: Trait | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Clipboard' | Title: 'Clipboard' | Type: Trait | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_PaperAirplane' | Title: 'Paper Airplane' | Type: Toy | Price: 230
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Tablet' | Title: 'Tablet' | Type: Toy | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Yoyo_B' | Title: 'Green Yo-yo' | Type: Toy | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Galaxyberry' | Title: 'Old Galaxyberry' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_BoxingGloves' | Title: 'Boxing Gloves' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Cog' | Title: 'Cog' | Type: Toy | Price: 50
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tea' | Title: 'Tea' | Type: Snack | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Sunwelon' | Title: 'Old Sunwelon' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Doubloon_Ruby' | Title: 'Ruby Doubloon' | Type: Toy | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DarkGlasses_White' | Title: 'Sassy Sunglasses' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Leafberry' | Title: 'Old Leafberry' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BentoBox_High' | Title: 'High Quality Bento Box' | Type: Snack | Price: 30
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeadRock' | Title: 'Rock' | Type: Accessory | Price: 14
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_IceAxes' | Title: 'Ice Axes' | Type: Trait | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_GoodLuckCharm' | Title: 'Good Luck Charm' | Type: Trait | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_RCCar' | Title: 'RC Car' | Type: Toy | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_MoodStabilizer' | Title: 'Mood Stabilizer' | Type: Trait | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Kite_E' | Title: 'Dark Kite' | Type: Toy | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Kite_F' | Title: 'Striped Kite' | Type: Toy | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Chain_Silver' | Title: 'Chain' | Type: Accessory | Price: 80
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Yoyo_A' | Title: 'Blue Yo-yo' | Type: Toy | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Candy Pink' | Title: 'Pink Candy' | Type: Snack | Price: 6
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_BananaPeel' | Title: 'Banana Peel' | Type: Trait | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Doubloon_Sun' | Title: 'Sun Doubloon' | Type: Toy | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_FlintAndSteel' | Title: 'Flint and Steel' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Skateboard' | Title: 'Skateboard' | Type: Trait | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Kite_B' | Title: 'Split Kite' | Type: Toy | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Sword' | Title: 'Sword' | Type: Trait | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClassicPartyHat_Blue' | Title: 'Classic Party Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Pinwheel' | Title: 'Pinwheel' | Type: Toy | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Trait_Inhaler' | Title: 'Inhaler' | Type: Trait | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Candy Orange' | Title: 'Orange Candy' | Type: Snack | Price: 6
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_Kite_G' | Title: 'Sea Kite' | Type: Toy | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Chain_Gold' | Title: 'Chain' | Type: Accessory | Price: 140
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ToyItem_BubbleWand' | Title: 'Bubble Wand' | Type: Toy | Price: 220
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CoolHelmet_Blue' | Title: 'Cool Helmet' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gators_Red' | Title: 'Gators' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClayPot' | Title: 'Clay Pot' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_CelestialSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RaceCar_Blue' | Title: 'Race Car Bed' | Type: Other | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'StrawHat_White' | Title: 'Straw Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Gold' | Title: 'Top Hat' | Type: Accessory | Price: 1700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'OxygenTank' | Title: 'Oxygen Tank' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shield_A' | Title: 'Shield' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Goldenana' | Title: 'Goldenana Seeds' | Type: Seed | Price: 175
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Elephant_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Monocle_Silver' | Title: 'Monocle' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Cracker 1' | Title: 'Dragon Tail Cracker' | Type: Snack | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_GotchaDay' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RaceCar_Red' | Title: 'Race Car Bed' | Type: Other | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RoundTent_Yellow' | Title: 'Rount Tent Bed' | Type: Other | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_CatBed_Purple' | Title: 'Cat House Bed' | Type: Other | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Cute_Red' | Title: 'Cute Bed' | Type: Other | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Crib_Blue' | Title: 'Crib' | Type: Other | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RoundTent_Blue' | Title: 'Rount Tent Bed' | Type: Other | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RoundTent_Black' | Title: 'Rount Tent Bed' | Type: Other | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Cracker 3' | Title: 'Penguin Wings Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_Blue_Green' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HyperGirlyRibbon_Light' | Title: 'Hyper Girly Ribbon' | Type: Accessory | Price: 410
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Unripe Rosa de amor' | Title: 'Small Rosa de amor' | Type: Snack | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FedoraNormal_White' | Title: 'Fedora' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Rosenana' | Title: 'Juicy Rosenana' | Type: Snack | Price: 85
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Small_White' | Title: 'Small Top Hat' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SwimGoggles_Blue' | Title: 'Swim Goggles' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 13' | Title: 'Totem' | Type: Other | Price: 13
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyHat_Brown' | Title: 'Pointy Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BlackMarket_MasherSapling' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CatArms_Cracker' | Title: 'Cat Arms Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 19' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PrettyWig_White' | Title: 'Pretty Wig' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BowTie_Red' | Title: 'Bow Tie' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunHat_Yellow' | Title: 'Sun Hat' | Type: Accessory | Price: 220
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BlackMarket_Juices' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Eyes' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Elephant_Trunk' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BunnySlippers_Pink' | Title: 'Bunny Slippers' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Horse_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Beaver Cracker 3' | Title: 'Beaver Tail Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Elephant Cracker 1' | Title: 'Elephant Ears Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Cracker 3' | Title: 'Dragon Wings Cracker' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CatEars_Cracker' | Title: 'Cat Ears Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Cracker 2' | Title: 'Penguin Beak Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Beaver Cracker 1' | Title: 'Beaver Teeth Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dog_Cracker 3' | Title: 'Dog Tail Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Elephant Cracker 3' | Title: 'Elephant Feet Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Beaver_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BatWings_Cracker' | Title: 'Bat Wings Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Cracker 4' | Title: 'Penguin Feet Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CatFeet_Cracker' | Title: 'Cat Feet Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CatWhiskers_Cracker' | Title: 'Cat Whiskers Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CatTail_Cracker' | Title: 'Cat Tail Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BionicRightArm_Cracker' | Title: 'Cyborg Right Arm Cracker' | Type: Snack | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Beaver Cracker 2' | Title: 'Beaver Ears Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dog_Cracker 1' | Title: 'Dog Ears Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Horse Cracker 2' | Title: 'Horse Tail Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dog_Snout' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BatTeeth_Cracker' | Title: 'Bat Teeth Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Elephant Cracker 2' | Title: 'Elephant Trunk Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bionic_RightFeet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dragon_Cracker 2' | Title: 'Dragon Snout Cracker' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Elephant_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Horse_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Cracker 1' | Title: 'Penguin Eyebrows Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Horse Cracker 1' | Title: 'Horse Ears Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bionic_RightArm' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Horse_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Beaver_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dog_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dog_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BionicRightFoot_Cracker' | Title: 'Cyborg Right Foot Cracker' | Type: Snack | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dog_Cracker 2' | Title: 'Dog Snout Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Beaver_Teeth' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Horse Cracker 3' | Title: 'Horse Feet Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BatEars_Cracker' | Title: 'Bat Ears Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_WhiteFrame_BlueLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SteampunkGoggles' | Title: 'Steampunk Goggles' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tiara_Silver' | Title: 'Tiara' | Type: Accessory | Price: 1100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunWukongHeadpiece_Gray' | Title: 'Sun Wukong Headpiece' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Golden Rosa de amor' | Title: 'Golden Rosa de amor' | Type: Snack | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Sneakers_A_Red' | Title: 'New Sneakers' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'IntelligentGlasses_Gold' | Title: 'Intelligent Glasses' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BettingLounge_SlotPrize' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_CLEAR' | Title: 'Reverse Vita Drop' | Type: Snack | Price: 20
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Fedora_White' | Title: 'Cool Fedora' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Thick Pie' | Title: 'Thick Pie' | Type: Snack | Price: 35
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Green_B' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SleepMask_Pink' | Title: 'Sleep Mask' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_5Species' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 4' | Title: 'Totem' | Type: Other | Price: 4
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 16' | Title: 'Totem' | Type: Other | Price: 16
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Devil_Horns' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Devil_Cracker' | Title: 'Devil Cracker' | Type: Snack | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Devil_Wings' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Brown' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Blue_B' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClassicPartyHat_Red' | Title: 'Classic Party Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Blue_A' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'StarGardenHelmet' | Title: 'Cosmic Ecologist Helmet' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DressShoes_White' | Title: 'Dress Shoes' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bobogotchi_Pink' | Title: 'Bobogotchi' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_WaveDash' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Crab_Shell' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'IntelligentGlasses_Black' | Title: 'Intelligent Glasses' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Cyborg_Cracker' | Title: 'Cyborg Cracker' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bionic_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bionic_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gators_Black' | Title: 'Gators' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyBoots_Pink' | Title: 'Cowboy Boots' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bobogotchi_Yellow' | Title: 'Bobogotchi' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Medicine' | Title: 'Pinto Buzzball' | Type: Other | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_BasicSleepingBag_Purple' | Title: 'Basic Sleeping Bag' | Type: Other | Price: 270
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_BasicSleepingBag_White' | Title: 'Basic Sleeping Bag' | Type: Other | Price: 270
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_BasicSleepingBag_Blue' | Title: 'Basic Sleeping Bag' | Type: Other | Price: 270
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_BasicSleepingBag_Red' | Title: 'Basic Sleeping Bag' | Type: Other | Price: 270
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_BasicSleepingBag_Yellow' | Title: 'Basic Sleeping Bag' | Type: Other | Price: 270
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_BasicSleepingBag_Green' | Title: 'Basic Sleeping Bag' | Type: Other | Price: 270
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FutureCompetitions' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Burger' | Title: 'Burger' | Type: Accessory | Price: 1100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'WingedSandals' | Title: 'Winged Sandals' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NapSack_Black' | Title: 'Drawstring Bag' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shoes_A_Black' | Title: 'Sneakers' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BusinessGlasses_Black' | Title: 'Business Glasses' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bandana_Black' | Title: 'Bandana' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_Black' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SwimGoggles_Black' | Title: 'Swim Goggles' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBow_Black' | Title: 'Big Bow' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HandBag_Black' | Title: 'Hand Bag' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'WizardHat_Black' | Title: 'Wizard Hat' | Type: Accessory | Price: 650
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Black' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_C_Black' | Title: 'Sleek Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Cute_Black' | Title: 'Cute Bed' | Type: Other | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Headband_Black' | Title: 'Headband' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SleepMask_Black' | Title: 'Sleep Mask' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DarkGlasses_Black' | Title: 'Sassy Sunglasses' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CopGlasses_Black' | Title: 'Aviators' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PrettyWig_Black' | Title: 'Pretty Wig' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Scarf_Black' | Title: 'Scarf' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sundays' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_TinyHead' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FestivalMask_Bear' | Title: 'Festival Bear Mask' | Type: Accessory | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FestivalMask_Demon' | Title: 'Festival Demon Mask' | Type: Accessory | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FestivalMask_Cat' | Title: 'Festival Cat Mask' | Type: Accessory | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Geta' | Title: 'Geta' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Purple Shaved Ice' | Title: 'Purple Shaved Ice' | Type: Snack | Price: 30
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Berry on a Stick' | Title: 'Berry on a Stick' | Type: Snack | Price: 30
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Welon on a Stick' | Title: 'Welon on a Stick' | Type: Snack | Price: 30
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FestivalMask_Happy' | Title: 'Festival Happy Mask' | Type: Accessory | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_NightOwlEvolve' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Effect_AestheticOrbitalGalaxy' | Title: 'Aesthetic Orbital Galaxy' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Agility' | Title: 'Agility Juice' | Type: Juice | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_ColdBrewJug' | Title: 'Jug of Cold Brew' | Type: Juice | Price: 210
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Effect_Fire' | Title: 'Fire' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_PinkCamo' | Title: 'Baseball Cap' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shoes_A_Red' | Title: 'Sneakers' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SkiGoggles_Purple' | Title: 'Ski Goggles' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Big_Secondary' | Title: 'Top Hat' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Golden Loaf' | Title: 'Golden Loaf' | Type: Snack | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shoes_A_Blue' | Title: 'Sneakers' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_ColdBrewLarge' | Title: 'Large Cold Brew' | Type: Juice | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'RoyalCrown_TrueGold' | Title: 'Royal Crown' | Type: Accessory | Price: 10000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Big_Red' | Title: 'Top Hat' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Small_Black' | Title: 'Small Top Hat' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'RoyalCrown_Black' | Title: 'Royal Crown' | Type: Accessory | Price: 2000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Scarf_Eyes' | Title: 'Scarf' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'OxygenTank_VatLabs' | Title: 'VAT Labs Tank' | Type: Accessory | Price: 470
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Carved Pumpkin' | Title: 'Carved Pumpkin' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'StrawHat_Orange' | Title: 'Straw Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Stamina' | Title: 'Stamina Juice' | Type: Juice | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 25' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Butterfly_Wings' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Butterfly_Mouth' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Butterfly_Antenna' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Butterfly_Cracker' | Title: 'Super Butterfly Cracker' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Stat Reset' | Title: 'OOPS! All Ds' | Type: Snack | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Selene'sCrescentEarings' | Title: 'Selene's Crescent Earrings' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Beaver_Cracker' | Title: 'Super Beaver Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Hagoromo_Blue' | Title: 'Hagoromo' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_LilyPad' | Title: 'Lily Pad Bed' | Type: Other | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TreeFrog_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TreeFrog_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TreeFrog_Cracker' | Title: 'Tree Frog Cracker' | Type: Snack | Price: 375
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Scarf_Red' | Title: 'Scarf' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TrashCan' | Title: 'Trash Can' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_Green' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Frog_Cracker' | Title: 'Frog Cracker' | Type: Snack | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Frog_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Frog_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 2' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_Dance' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Parrot_Beak' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBeard_Secondary' | Title: 'Pointy Beard' | Type: Accessory | Price: 850
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 5' | Title: 'Totem' | Type: Other | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_KelpThrift_SaleSpring16' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Scarf_Brown' | Title: 'Scarf' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Stripes_C' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 26' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Purple' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_D_Blue_Green' | Title: 'Cute Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Smoothie Nana Bowl' | Title: 'Glowtide Bowl' | Type: Snack | Price: 33
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bear_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bear_Cracker' | Title: 'Bear Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SocksWithSlides' | Title: 'Socks With Slides' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bear_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bear_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_RobosWelcome' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shield_A_Red' | Title: 'Shield' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Red_A' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Red_B' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Yellow_B' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Blue_C' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Pink_A' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Purple_B' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Pink_B' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Blue_E' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Orange' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Green_A' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Purple_A' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Yellow_A' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PartyHat_Blue_D' | Title: 'Party Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pumps_Red' | Title: 'Pumps' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyBeard_Brown' | Title: 'Pointy Beard' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 29' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Trash' | Title: 'Trash Bed' | Type: Other | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBow_Pink' | Title: 'Big Bow' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 20' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Octopus_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_Fire' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_SnacksADay' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_Blue_White' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BunnySlippers_White' | Title: 'Bunny Slippers' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_B_White' | Title: 'Cool Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_EveryBobo' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mouse_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Lazy' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_Pancake' | Title: 'Pancakes' | Type: Snack | Price: 390
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_4_HiddenTraits' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Night' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_DifficultyStars' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeartGlasses_Red' | Title: 'Heart Glasses' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyHat_White' | Title: 'Cowboy Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VPopStarWig_Purple' | Title: 'Virtual Pop Star Wig' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Octopus_Cracker' | Title: 'Octopus Cracker' | Type: Snack | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Masher' | Title: 'Masher' | Type: Other | Price: 375
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FancyMask_Black' | Title: 'Masquerade Mask' | Type: Accessory | Price: 850
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Green' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Raft' | Title: 'Raft Bed' | Type: Other | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_Blue_Gray' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_LightBlue' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Red' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_H_Green' | Title: 'Nice Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VintageGlasses_Brown' | Title: 'Vintage Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Headband_Rainbow' | Title: 'Headband' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyHat_Gray' | Title: 'Pointy Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Scarf_Pink' | Title: 'Scarf' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Rosenana' | Title: 'Rosenana Seeds' | Type: Seed | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'MotorSliceGoggles' | Title: 'P's Goggles' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pearl Necklace' | Title: 'Pearl Necklace' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_E_Brown' | Title: 'Serious Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Red' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Flippers_Yellow' | Title: 'Flippers' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnightBoots' | Title: 'Knight Boots' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyHat_Pink' | Title: 'Cowboy Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Axolotl_Flare' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunHat_White' | Title: 'Sun Hat' | Type: Accessory | Price: 220
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_F_White' | Title: 'Spot Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PixelGlasses_Red' | Title: 'Pixel Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bobogotchi_Black' | Title: 'Bobogotchi' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Axolotl_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Sandals' | Title: 'Sandals' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Parrot_Cracker' | Title: 'Parrot Cracker' | Type: Snack | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CoolHelmet_Black' | Title: 'Cool Helmet' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VPopStarWig_White' | Title: 'Virtual Pop Star Wig' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HyperGirlyRibbon_Purple' | Title: 'Hyper Girly Ribbon' | Type: Accessory | Price: 410
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_D_Blue_Blue' | Title: 'Cute Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BunnyBackpack_White' | Title: 'Bunny Backpack' | Type: Accessory | Price: 575
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Acceleration' | Title: 'Acceleration Juice' | Type: Juice | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FancyMask_White' | Title: 'Masquerade Mask' | Type: Accessory | Price: 850
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Galaxyberry' | Title: 'Galaxyberry Seeds' | Type: Seed | Price: 175
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Flippers_Blue' | Title: 'Flippers' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mouse_Snout' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VintageGlasses_Black' | Title: 'Vintage Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Headband_Red' | Title: 'Headband' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NapSack_Red' | Title: 'Drawstring Bag' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VPopStarWig_Secondary' | Title: 'Virtual Pop Star Wig' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyHat_LightBrown' | Title: 'Cowboy Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'StrawHat_Red' | Title: 'The Straw Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RaceCar_Green' | Title: 'Race Car Bed' | Type: Other | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnightHelmet' | Title: 'Knight Helmet' | Type: Accessory | Price: 650
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyBoots_Brown' | Title: 'Cowboy Boots' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'T-Rex_Cracker' | Title: 'T-Rex Cracker' | Type: Snack | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SteamPunkHat_Black' | Title: 'Steam Punk Hat' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipSunGlasses_White' | Title: 'Hip Glasses' | Type: Accessory | Price: 130
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_White_Yellow' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gators_Camo' | Title: 'Gators' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PandaBear_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_E_Blue' | Title: 'Serious Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_CatBed_Blue' | Title: 'Cat House Bed' | Type: Other | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_BlueFrame_ClearLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_H_Brown' | Title: 'Nice Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juice_Run' | Title: 'Run Juice' | Type: Juice | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FancyMask_Gold' | Title: 'Masquerade Mask' | Type: Accessory | Price: 850
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_Crib_Pink' | Title: 'Crib' | Type: Other | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_D_Blue_Black' | Title: 'Cute Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_White_Red' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_Blue_Purple' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyHat_Blue' | Title: 'Cowboy Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeadbandWithBow_Pink' | Title: 'Headband' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_B_Blue' | Title: 'Cool Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_B_Red' | Title: 'Cool Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunWukongHeadpiece_Gold' | Title: 'Sun Wukong Headpiece' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_H_Blue' | Title: 'Nice Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_Tan' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'T-Rex_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SteamPunkHat_White' | Title: 'Steam Punk Hat' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Axolotl_Cracker' | Title: 'Axolotl Cracker' | Type: Snack | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Headband_Blue' | Title: 'Headband' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_F_Red' | Title: 'Spot Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'AnubisMask' | Title: 'Anubis Mask' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeadbandWithBow_Purple' | Title: 'Headband' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Leafberry' | Title: 'Juicy Leafberry' | Type: Snack | Price: 70
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_White' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Crab_Cracker' | Title: 'Crab Cracker' | Type: Snack | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DivingHelmet' | Title: 'Diving Helmet' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bobo_Cracker' | Title: 'Bobo Cracker' | Type: Snack | Price: 125
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'GrindShoes_Blue' | Title: 'Grind Shoes' | Type: Accessory | Price: 1500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VPopStarWig_Blue' | Title: 'Virtual Pop Star Wig' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Fertilizer' | Title: 'Fertilizer Brick' | Type: Other | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bed_RaceCar_Black' | Title: 'Race Car Bed' | Type: Other | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NapSack_Orange' | Title: 'Drawstring Bag' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunHat_Striped' | Title: 'Sun Hat' | Type: Accessory | Price: 220
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Beaver Cracker' | Title: 'Beaver Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gators_Blue' | Title: 'Gators' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mouse_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_C_Blue' | Title: 'Sleek Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TeddyBear' | Title: 'Teady Bear Hat' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tie_Purple' | Title: 'Tie' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_White' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Flippers_White' | Title: 'Flippers' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Coral de amor' | Title: 'Coral de amor Seeds' | Type: Seed | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_H_Red' | Title: 'Nice Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_Coral' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Orange' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Scarf_Blue' | Title: 'Scarf' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Butterfly_Cracker' | Title: 'Butterfly Cracker' | Type: Snack | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'WizardHat_Purple' | Title: 'Wizard Hat' | Type: Accessory | Price: 650
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bandana_Gray' | Title: 'Bandana' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Field Rations' | Title: 'Field Rations' | Type: Snack | Price: 190
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Sneakers_A_Yellow' | Title: 'New Sneakers' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PharaohHead' | Title: 'Pharaoh Headpiece' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_H_Gray' | Title: 'Nice Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SheriffBadge' | Title: 'Sheriff Badge' | Type: Accessory | Price: 140
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClassicPartyHat_Yellow' | Title: 'Classic Party Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'UmbrellaHat' | Title: 'Umbrella Hat' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'GrindShoes_Black' | Title: 'Grind Shoes' | Type: Accessory | Price: 1500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PirateHat_Red' | Title: 'Pirate Hat' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Sunwelon' | Title: 'Juicy Sunwelon' | Type: Snack | Price: 85
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_GreenFrame_OrangeLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Green' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_F_Yellow' | Title: 'Spot Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DarkGlasses_Red' | Title: 'Sassy Sunglasses' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bandana_Blue' | Title: 'Bandana' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Sneakers_A_Blue' | Title: 'New Sneakers' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SwimGoggles_White' | Title: 'Swim Goggles' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Headband_White' | Title: 'Headband' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SleepMask_Blue' | Title: 'Sleep Mask' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SleepMask_Purple' | Title: 'Sleep Mask' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PandaBear_Cracker' | Title: 'Panda Bear Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Coral de amor' | Title: 'Juicy Coral de amor' | Type: Snack | Price: 85
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gators_Pink' | Title: 'Gators' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeadbandWithBow_Blue' | Title: 'Headband' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_C_Green' | Title: 'Sleek Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PaperBag' | Title: 'Paper Bag' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunWukongHeadpiece_Black' | Title: 'Sun Wukong Headpiece' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Shield_A_Dark' | Title: 'Shield' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HyperGirlyRibbon_Pink' | Title: 'Hyper Girly Ribbon' | Type: Accessory | Price: 410
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Parrot_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dog_Cracker' | Title: 'Dog Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Waterwelon' | Title: 'Juicy Waterwelon' | Type: Snack | Price: 85
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_White_Purple' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunWukongHeadpiece_Brown' | Title: 'Sun Wukong Headpiece' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mouse_Cracker' | Title: 'Mouse Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipGlasses_Blue' | Title: 'Hip Glasses' | Type: Accessory | Price: 130
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gators_Green' | Title: 'Gators' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BunnyBackpack_Brown' | Title: 'Bunny Backpack' | Type: Accessory | Price: 575
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipGlasses_White' | Title: 'Hip Glasses' | Type: Accessory | Price: 130
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Flippers_Black' | Title: 'Flippers' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipGlasses_Brown' | Title: 'Hip Glasses' | Type: Accessory | Price: 130
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Fuego de amor' | Title: 'Fuego de amor Seeds' | Type: Seed | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'T-Rex_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PandaBear_Feet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_D_Orange_Green' | Title: 'Cute Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SunHat_Beige' | Title: 'Sun Hat' | Type: Accessory | Price: 220
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'GrindShoes_Red' | Title: 'Grind Shoes' | Type: Accessory | Price: 1500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Leafberry' | Title: 'Leafberry Seeds' | Type: Seed | Price: 175
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PandaBear_Ears' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CowboyHat_DarkBrown' | Title: 'Cowboy Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tie_WhiteB' | Title: 'Tie' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ArrowThroughHead' | Title: 'Arrow' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Blue' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_B_Green' | Title: 'Cool Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Octopus_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_BlueFrame_BlueLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Purple' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BucketHat_Blue' | Title: 'Bucket Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Sea' | Title: 'Baseball Cap' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NapSack_Green' | Title: 'Drawstring Bag' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Elephant Cracker' | Title: 'Elephant Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeadbandWithBow_White' | Title: 'Headband' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NapSack_Purple' | Title: 'Drawstring Bag' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBeard_Brown' | Title: 'Pointy Beard' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBow_Blue' | Title: 'Big Bow' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipSunGlasses_Black' | Title: 'Hip Glasses' | Type: Accessory | Price: 130
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Parrot_Tail' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PixelGlasses_Blue' | Title: 'Pixel Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Smoothie Berry Bowl' | Title: 'Starfire Bowl' | Type: Snack | Price: 30
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_White_Blue' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'EyeScanner' | Title: 'Eye Scanner' | Type: Accessory | Price: 850
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ConicalHat' | Title: 'Conical Hat' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PixelGlasses_Yellow' | Title: 'Pixel Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Crab_Arms' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Smoothie Welon Bowl' | Title: 'Rainforest Bowl' | Type: Snack | Price: 33
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Scarf_Gray' | Title: 'Scarf' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_B_Purple' | Title: 'Cool Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'KnitHat_Yellow' | Title: 'Knit Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PlagueDoctorMask' | Title: 'Plague Doctor Mask' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Wreath_Gold' | Title: 'Wreath' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'StrawHat_Black' | Title: 'Straw Hat' | Type: Accessory | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CopGlasses_Gold' | Title: 'Aviators' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_C_Red' | Title: 'Sleek Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Headband_Pink' | Title: 'Headband' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Juicy Galaxyberry' | Title: 'Juicy Galaxyberry' | Type: Snack | Price: 70
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_D_Orange_Black' | Title: 'Cute Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'LightBulb' | Title: 'Light Bulb' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_GreenFrame_BlueLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClassicPartyHat_Green' | Title: 'Classic Party Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Horse Cracker' | Title: 'Horse Cracker' | Type: Snack | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_White_Green' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipGlasses_Black' | Title: 'Hip Glasses' | Type: Accessory | Price: 130
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Waterwelon' | Title: 'Waterwelon Seeds' | Type: Seed | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CoolHelmet_Eyes' | Title: 'Cool Helmet' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SeedPacket_Sunwelon' | Title: 'Sunwelon Seeds' | Type: Seed | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SwimGoggles_Green' | Title: 'Swim Goggles' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HeartGlasses_Purple' | Title: 'Heart Glasses' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClassicPartyHat_White' | Title: 'Classic Party Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NoxHead' | Title: 'Nox Headpiece' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'MedusaHead' | Title: 'Medusa Headpiece' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_G_White_Black' | Title: 'Classic Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBow_White' | Title: 'Big Bow' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bobogotchi_Blue' | Title: 'Bobogotchi' | Type: Accessory | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NapSack_Blue' | Title: 'Drawstring Bag' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Backpack_H_ForestGreen' | Title: 'Nice Backpack' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'ClassicPartyHat_Purple' | Title: 'Classic Party Hat' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VintageGlasses_Gold' | Title: 'Vintage Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_WorldDay' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Monocle_Gold' | Title: 'Monocle' | Type: Accessory | Price: 1600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sprout' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BabyToBud' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Fedora_Gray' | Title: 'Cool Fedora' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_NoBody' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mushroom' | Title: 'Manubello Mushroom' | Type: Snack | Price: 60
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BlackMarket_MasherTomorrow' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Checkers_B' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Stone Sagine' | Title: 'Sagine Stone' | Type: Snack | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_DayOne' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pie - Key Lime' | Title: 'Key Lime Pie' | Type: Snack | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tie_Blue' | Title: 'Tie' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_NightOwl' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Demo_1' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 24' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Beak_Natural' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Coral de amor_Tutorial' | Title: 'Coral de amor' | Type: Snack | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FirstRace' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Golden Palmwelon' | Title: 'Golden Palmwelon' | Type: Snack | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Bobo_Stars' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BlackMarket_Intro' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Doctor' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Parrot_Cracker' | Title: 'Super Parrot Cracker' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 10' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_2' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_StoringItems' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 12' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_NightOwlAgain' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Totonuts' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 23' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_UpgradeAtEndOfLife' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 9' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 27' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_5_Hammock' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_SagaLock' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Embarrassed' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_ClosedGate' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_SagasVSTrials' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_1' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 15' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 22' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_ItemInWater' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Patience' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Camp' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Rescue' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FirstWeek' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FollowBobos' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 16' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Docco' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 14' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 18' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_FavColor' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Unregister' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BestFriends' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 6' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 8' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_RemoveAccessories' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Snaptowaketofeed' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FirstRelay' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 17' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_SunHat' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 7' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Ghoulkeep' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Wheelyz' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 28' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Difficulty' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 11' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_PWP' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 21' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_TreasureMap' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_HammockOrder' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 13' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_WhySleep' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Beds' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BayfarerItems' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_SaveTable' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Docco 2' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_ERank' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_SellBeds' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 3' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Adoption' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 4' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Clothes' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_SellBin' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_FavSnack' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_3_Sheens' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_MessyGarden' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 1' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_ItemsOnExcursions' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 30' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Biweekly 5' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_3_Moods' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BlackMarket_Fake_ID' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BlackMarket_MasherHowToo' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BettingLounge_1' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_PotentialandParticpation' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Ollie'sDrinkHat' | Title: 'Big Bow' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Unripe Cheetanana' | Title: 'Small Cheetanana' | Type: Snack | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BaseballCap_Camo' | Title: 'Baseball Cap' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBeard_Black' | Title: 'Pointy Beard' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Cat_Cracker' | Title: 'Super Cat Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Dots_A' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Eternal Fruit' | Title: 'Eternal Fruit' | Type: Snack | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_CelestialsWelcome' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Golden Skyberry' | Title: 'Golden Skyberry' | Type: Snack | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Golden Cheetanana' | Title: 'Golden Cheetanana' | Type: Snack | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_GearSaga' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'WeddingVeil' | Title: 'Wedding Veil' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_WhiteFrame_PinkLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Stone' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Hex' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Bat_Cracker' | Title: 'Super Bat Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Unripe Palmwelon' | Title: 'Small Palmwelon' | Type: Snack | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'RoyalCrown' | Title: 'Royal Crown' | Type: Accessory | Price: 2000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BowTie_Black' | Title: 'Bow Tie' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Old Rosa de amor' | Title: 'Old Rosa de amor' | Type: Snack | Price: 7
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pie - Blueberry' | Title: 'Blueberry Pie' | Type: Snack | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Frostfire' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pumpkin' | Title: 'Pumpkin' | Type: Accessory | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Rosenana_Tutorial' | Title: 'Rosenana' | Type: Snack | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tie_White' | Title: 'Tie' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Corn Milk' | Title: 'Corn Milk' | Type: Snack | Price: 50
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyBeard_Secondary' | Title: 'Pointy Beard' | Type: Accessory | Price: 850
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Stripes_B' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Stone Ropaz' | Title: 'Ropaz Stone' | Type: Snack | Price: 85
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PixelGlasses_Gold' | Title: 'Pixel Glasses' | Type: Accessory | Price: 1500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Stone Azul' | Title: 'Azul Stone' | Type: Snack | Price: 100
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 15' | Title: 'Totem' | Type: Other | Price: 15
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Baked_Macarons' | Title: 'Macarons' | Type: Snack | Price: 18
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_Salad' | Title: 'Salad' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 0' | Title: 'Totem' | Type: Other | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 2' | Title: 'Totem' | Type: Other | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Baked_Brownie' | Title: 'Brownie' | Type: Snack | Price: 29
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Baked_CinnamonRoll' | Title: 'Cinnamon Roll' | Type: Snack | Price: 38
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'TopHat_Big_White' | Title: 'Top Hat' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Headband_Eyes' | Title: 'Headband' | Type: Accessory | Price: 150
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipSunGlasses_Secondary' | Title: 'Hip Glasses' | Type: Accessory | Price: 130
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Hearts' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VintageGlasses_RedLenses' | Title: 'Vintage Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 7' | Title: 'Totem' | Type: Other | Price: 7
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_BakedPotato' | Title: 'Baked Potato' | Type: Snack | Price: 460
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pumps_Black' | Title: 'Pumps' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Thick Pie with Love' | Title: 'Thick Pie With Love' | Type: Snack | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Bear_Cracker' | Title: 'Super Bear Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Demo_2' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Aztec' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipGlasses_Turtle' | Title: 'Hip Glasses' | Type: Accessory | Price: 160
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_ZigZag' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_BackwardsHead' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DressShoes_Black' | Title: 'Dress Shoes' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Mouse_Cracker' | Title: 'Super Mouse Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Dragon_Cracker' | Title: 'Super Dragon Cracker' | Type: Snack | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Dog_Cracker' | Title: 'Super Dog Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Elephant Cracker' | Title: 'Super Elephant Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Super_Penguin_Cracker' | Title: 'Super Penguin Cracker' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HandBag_Brown' | Title: 'Hand Bag' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Demo_3' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PowderedWig' | Title: 'Powdered Wig' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_Ramen' | Title: 'Ramen' | Type: Snack | Price: 500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_NoArms' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 12' | Title: 'Totem' | Type: Other | Price: 12
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Demo_4' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tie_Red' | Title: 'Tie' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_FirstIsland' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VintageSunGlasses_Gold' | Title: 'Vintage Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Unripe Skyberry' | Title: 'Small Skyberry' | Type: Snack | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyBeard_Black' | Title: 'Pointy Beard' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PrettyWig_Brown' | Title: 'Pretty Wig' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BowTie_White' | Title: 'Bow Tie' | Type: Accessory | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Water' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Triangles' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Squares' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Checkers_A' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Stripes_A' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_AnimalStripes' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VitaDrop_Bricks' | Title: 'Vita Drop' | Type: Snack | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mustache_White' | Title: 'Mustache' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'NinjaMask' | Title: 'Ninja Mask' | Type: Accessory | Price: 700
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 6' | Title: 'Totem' | Type: Other | Price: 6
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 9' | Title: 'Totem' | Type: Other | Price: 9
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 11' | Title: 'Totem' | Type: Other | Price: 11
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 8' | Title: 'Totem' | Type: Other | Price: 8
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 3' | Title: 'Totem' | Type: Other | Price: 3
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 10' | Title: 'Totem' | Type: Other | Price: 10
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 14' | Title: 'Totem' | Type: Other | Price: 14
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Totem 1' | Title: 'Totem' | Type: Other | Price: 1
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Monocle_Black' | Title: 'Monocle' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bionic_LeftArm' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Strawberry Donut' | Title: 'Strawberry Donut' | Type: Snack | Price: 400
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_Tiny' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tie_BlackB' | Title: 'Tie' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'FedoraNormal_Gray' | Title: 'Fedora' | Type: Accessory | Price: 350
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PointyBeard_White' | Title: 'Pointy Beard' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pumps_White' | Title: 'Pumps' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Hagoromo_White' | Title: 'Hagoromo' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BigBeard_White' | Title: 'Pointy Beard' | Type: Accessory | Price: 750
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tiara_Gold' | Title: 'Tiara' | Type: Accessory | Price: 2000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DressShoes_Brown' | Title: 'Dress Shoes' | Type: Accessory | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Hagoromo_Pink' | Title: 'Hagoromo' | Type: Accessory | Price: 1000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Tie_Black' | Title: 'Tie' | Type: Accessory | Price: 450
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'PrettyWig_Blonde' | Title: 'Pretty Wig' | Type: Accessory | Price: 900
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Sneakers_A_Gold' | Title: 'New Sneakers' | Type: Accessory | Price: 3000
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Mustache_Green' | Title: 'Mustache' | Type: Accessory | Price: 600
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_WhiteFrame_BlackLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_Rainbow' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BionicLeftArm_Cracker (not working)' | Title: '' | Type: Snack | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Stone Ambertz' | Title: 'Ambertz Stone' | Type: Snack | Price: 120
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Bionic_LeftFeet' | Title: '' | Type: 0 | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'BionicLeftFoot_Cracker (not working)' | Title: '' | Type: Snack | Price: 800
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_T-Pose' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_NoBobber' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_Flat' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Gumball_Large' | Title: 'Gumball' | Type: Snack | Price: 5
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'DoctorHeadMirror' | Title: 'Doctor's Head Mirror' | Type: Accessory | Price: 1500
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'HipSunGlasses_Turtle' | Title: 'Hip Glasses' | Type: Accessory | Price: 160
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_BlackFrame_PurpleLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_BlackFrame_GoldLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'SkiGoggles_Eyes' | Title: 'Ski Goggles' | Type: Accessory | Price: 300
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'CyclingGlasses_BlackFrame_BlackLens' | Title: 'Cycling Glasses' | Type: Accessory | Price: 200
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'VintageGlasses_GreenLenses' | Title: 'Vintage Glasses' | Type: Accessory | Price: 250
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_Mochi' | Title: 'Mochi' | Type: Snack | Price: 460
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Restaurant_Takoyaki' | Title: 'Mushroom Takoyaki' | Type: Snack | Price: 390
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_ItemsGoBad (redundant)' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Sister_Species' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_AllBobopedia' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_IKnowWhatYouDid' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_TeenyCroquette' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Ghoulkeep' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_foresteveryday' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Stinky Palmwelon' | Title: 'Stinky Palmwelon' | Type: Snack | Price: 7
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Pie - Pecan' | Title: 'Pecan Pie' | Type: Snack | Price: 0
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Cellphone' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dirty Cheetanana' | Title: 'Dirty Cheetanana' | Type: Snack | Price: 7
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_BubTheBeezle' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Letter_Cheering' | Title: '' | Type: 0 | Price: 2
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Dusty Skyberry' | Title: 'Dusty Skyberry' | Type: Snack | Price: 7
+[Info   :BoboBay.Archipelago] [APDebug] Item: 'Penguin_Feet_Natural' | Title: '' | Type: 0 | Price: 0
+[

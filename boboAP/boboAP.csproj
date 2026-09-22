@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>BoboBayArchipelago</AssemblyName>
+    <RootNamespace>BoboBayArchipelago</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+
+    <GameFolder>C:\Program Files (x86)\Steam\steamapps\common\Bobo Bay</GameFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- BepInEx & Harmony References -->
+    <Reference Include="BepInEx">
+      <HintPath>$(GameFolder)\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(GameFolder)\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+
+    <!-- Unity Managed DLL References -->
+    <Reference Include="UnityEngine">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityAtoms.UnityAtomsBaseAtoms.Runtime">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityAtoms.UnityAtomsBaseAtoms.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityAtoms.UnityAtomsCore.Runtime">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityAtoms.UnityAtomsCore.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Archipelago.MultiClient.Net" Version="6.3.0" />
+  </ItemGroup>
+
+</Project>
