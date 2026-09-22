@@ -19,6 +19,6 @@ Acknowledgements
 ----------------
 Thanks to the following for making this possible:
 - Archipelago team and contributors
-- [[APSkeleton](https://github.com/hoppel16/APSkeleton) for being a good starting point
+- [[APSkeleton](https://github.com/hoppel16/APSkeleton)] for being a good starting point
 - my friends for letting me test in our AP runs :)
 - anyone who enjoys my implementation for bobo bay :D
