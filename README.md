@@ -13,12 +13,13 @@ Setup
 -----
 ### Prerequisites
 - Archipelago (0.6.7 or higher) [[Install](https://github.com/ArchipelagoMW/Archipelago)] [[Guide](https://archipelago.gg/tutorial/Archipelago/setup/en)]
-- Bobo Bay game from Steam
+- Bobo Bay game from Steam [[Here](https://store.steampowered.com/app/1889810/Bobo_Bay/)]
 
 Acknowledgements
 ----------------
 Thanks to the following for making this possible:
 - Archipelago team and contributors
 - [[APSkeleton](https://github.com/hoppel16/APSkeleton)] for being a good starting point
+- sashademinova on the bobo bay discord for letting me adapt some of her mods for this implementation
 - my friends for letting me test in our AP runs :)
 - anyone who enjoys my implementation for bobo bay :D
