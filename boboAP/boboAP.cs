@@ -295,12 +295,11 @@ namespace BoboBayArchipelago
 
         private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            Log?.LogInfo($"Archipelago: Scene loaded '{scene.name}' (Mode: {mode}).");
+            Plugin.Log?.LogInfo($"[Archipelago] Scene loaded: '{scene.name}' (Mode: {mode}).");
 
             if (scene.name == "Bay")
             {
                 ArchipelagoManager.IsInBay = true;
-                Log?.LogInfo($"Archipelago: Bay loaded, IsInBay = true.");
                 if (ArchipelagoItemHandler.UnlimitedSnacksEnabled) _foodModPending = true;
             }
 
@@ -316,7 +315,6 @@ namespace BoboBayArchipelago
             if (scene.name == "Bay")
             {
                 ArchipelagoManager.IsInBay = false;
-                Log?.LogInfo($"Archipelago: Bay unloaded, IsInBay = false.");
             } 
         }
 
@@ -606,7 +604,7 @@ namespace BoboBayArchipelago
             }
 
             save.SaveMoney();
-            Plugin.Log?.LogInfo($"Archipelago: granted {amount} bobo bucks.");
+            Plugin.Log?.LogInfo($"[Archipelago] Granted {amount} bobo bucks.");
         }
 
         public static void GrantProgressiveSagas()
@@ -851,14 +849,14 @@ namespace BoboBayArchipelago
                     {
                         var failure = (LoginFailure)result;
                         IsConnected = false;
-                        UpdateStatus("Connection Failed: " + string.Join(", ", failure.Errors));
+                        UpdateStatus($"[Archipelago] Connection Failed: " + string.Join(", ", failure.Errors));
                     }
                 }
                 catch (Exception ex)
                 {
                     IsConnected = false;
-                    UpdateStatus($"Connection Failed: {ex.Message}");
-                    Plugin.Log?.LogError($"Archipelago connection exception: {ex}");
+                    UpdateStatus($"[Archipelago] Connection Failed: {ex.Message}");
+                    Plugin.Log?.LogError($"[Archipelago] Archipelago connection exception: {ex}");
                 }
             });
         }
@@ -879,7 +877,7 @@ namespace BoboBayArchipelago
         private static void UpdateStatus(string message)
         {
             StatusMessage = message;
-            Plugin.Log?.LogInfo($"Archipelago Status: {message}");
+            Plugin.Log?.LogInfo($"[Archipelago] Archipelago Status: {message}");
         }
     }
 }
