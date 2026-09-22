@@ -194,7 +194,7 @@ pubworks_items = {
 
 # junk item stuff again
 junk_items = {
-    "150 money":                    ItemData(20050090, ItemClassification.filler, 0),
+    "300 money":                   ItemData(20050090, ItemClassification.filler, 0),
     "Banana Cream Pie":            ItemData(20050092, ItemClassification.filler, 0),
     "Key Lime Pie":                ItemData(20050093, ItemClassification.filler, 0),
     "Blueberry Pie":               ItemData(20050094, ItemClassification.filler, 0),
@@ -205,7 +205,7 @@ junk_items = {
 }
 
 junk_weights = {
-    "150 money": 50,
+    "300 money": 50,
     "Banana Cream Pie":       5,
     "Key Lime Pie":           5,
     "Blueberry Pie":          5,

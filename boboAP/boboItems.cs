@@ -76,7 +76,7 @@ namespace BoboBayArchipelago
             { 20050052, "ToyItem_StuffedAnimal" },
 
             // Junk items
-            // 150 money is 20050090
+            // 300 money is 20050090
             { 20050092, "Pie - Banana Cream" },
             { 20050093, "Pie - Key Lime" },
             { 20050094, "Pie - Blueberry" },

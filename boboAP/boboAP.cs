@@ -431,20 +431,20 @@ namespace BoboBayArchipelago
 
         public static void ForceRefreshCompetitions()
         {
-            var organizer = UnityEngine.Object.FindObjectOfType(typeof(BobosWorld.CompetitionOrganizer)) as BobosWorld.CompetitionOrganizer;
+            var organizer = UnityEngine.Object.FindObjectOfType(typeof(CompetitionOrganizer)) as CompetitionOrganizer;
             if (organizer == null) return; // not in-game yet 
 
-            var garden = BobosWorld.Garden.Current;
+            var garden = Garden.Current;
             if (garden == null) return;
 
             var flags = BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance;
-            var dateTimeSOField = typeof(BobosWorld.Garden).GetField("_curDateTime", flags);
+            var dateTimeSOField = typeof(Garden).GetField("_curDateTime", flags);
             object dateTimeSO = dateTimeSOField?.GetValue(garden);
             var valueProp = dateTimeSO?.GetType().GetProperty("Value", flags);
             object currentDate = valueProp?.GetValue(dateTimeSO);
             if (currentDate == null) return;
 
-            var method = typeof(BobosWorld.CompetitionOrganizer).GetMethod("SetTodaysCompetitions", flags);
+            var method = typeof(CompetitionOrganizer).GetMethod("SetTodaysCompetitions", flags);
             method?.Invoke(organizer, new object[] { currentDate });
             Plugin.Log?.LogInfo("[Archipelago] Forced competition/saga refresh after loading thresholds.");
         }
@@ -642,7 +642,7 @@ namespace BoboBayArchipelago
                     Plugin.Log?.LogInfo($"[Archipelago] Bobo Ticket received ({BoboTicketsReceived}/{BoboTicketsRequired}).");
                     break;
                 case 20050090:
-                    GrantMoney(150);
+                    GrantMoney(300);
                     break;
                 case 20050099:
                     Plugin.Log?.LogInfo("[Archipelago] VICTORY item received! Congratulations!");
