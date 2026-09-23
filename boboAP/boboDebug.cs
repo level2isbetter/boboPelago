@@ -58,8 +58,6 @@ namespace BoboBayArchipelago
                     Plugin.Log?.LogInfo($"[APDebug] comp: {comp.name} (rank={comp.rank}, type={comp.type}, title='{title}') [{status}]");
                 }
 
-                // Flag anything in the dictionary that no longer matches a real competition
-                // (stale entries, or the duplicate-key situation from before)
                 var realNames = standalone.Select(c => c.name).ToHashSet();
                 foreach (var key in CompetitionLocations.All.Keys)
                 {

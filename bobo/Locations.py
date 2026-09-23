@@ -11,16 +11,11 @@ def did_include_extra_locations(world: "BoboWorld") -> bool:
     return bool(world.options.ExtraLocations)
 
 def get_total_locations(world: "BoboWorld") -> int:
-    # This is the total that we'll keep updating as we count how many locations there are
     total = 0
     for name in location_table:
-        # If we did not turn on extra locations (see how readable it is with that thing from the top)
-        # AND the name of it is found in our extra locations table, then that means we dont want to count it
-        # So continue moves onto the next name in the table
         if not did_include_extra_locations(world) and name in extra_locations:
             continue
 
-        # If the location is valid though, count it
         if is_valid_location(world, name):
             total += 1
 
@@ -31,7 +26,6 @@ def get_location_names() -> Dict[str, int]:
 
     return names
 
-# check valid location for extra locations
 def is_valid_location(world: "BoboWorld", name) -> bool:
     if not did_include_extra_locations(world) and name in extra_locations:
         return False

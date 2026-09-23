@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 namespace BoboBayArchipelago
 {
-    /// Injects an "Archipelago" tab into BobosWorld.UISettings using live game clones.
     [HarmonyPatch(typeof(BobosWorld.UISettings), "OnEnable")]
     public static class ArchipelagoUI_OnEnable
     {
@@ -86,18 +85,14 @@ namespace BoboBayArchipelago
                 vlg.childAlignment = TextAnchor.UpperLeft;
             }
 
-            // Clear native copied template rows
             for (int i = rowParent.childCount - 1; i >= 0; i--)
                 UnityEngine.Object.Destroy(rowParent.GetChild(i).gameObject);
 
-            // Locate base templates for cloning UI components
             GameObject toggleTemplate     = FindRowTemplate<Toggle>(controlsTab) ?? FindRowTemplate<Toggle>(videoTab);
             GameObject inputFieldTemplate = FindInputFieldTemplate(controlsTab) ?? FindInputFieldTemplate(videoTab);
 
-            // ── Section 1: Connection Settings ──────────────────────────────────────
             CloneHeader(toggleTemplate, rowParent, "AP_Header", "Archipelago Connection");
 
-            // Server Address / Port Input
             BuildInputFieldRow("Server (Host:Port)", 
                 Plugin.ServerAddressEntry?.Value ?? "archipelago.gg:38281", 
                 inputFieldTemplate, 
@@ -107,7 +102,6 @@ namespace BoboBayArchipelago
                 if(Plugin.ServerAddressEntry != null) Plugin.ServerAddressEntry.Value = val;
             });
 
-            // Player / Slot Name Input
             BuildInputFieldRow("Slot Name", 
                 Plugin.SlotNameEntry?.Value ?? "BoboPlayer", 
                 inputFieldTemplate, 
@@ -117,7 +111,6 @@ namespace BoboBayArchipelago
                 if(Plugin.SlotNameEntry != null) Plugin.SlotNameEntry.Value = val;
             });
 
-            // Password Input
             BuildInputFieldRow("Password", 
                 Plugin.PasswordEntry?.Value ?? "", 
                 inputFieldTemplate, 
@@ -127,8 +120,6 @@ namespace BoboBayArchipelago
                 if(Plugin.PasswordEntry != null) Plugin.PasswordEntry.Value = val;
             });
 
-            // ── Section 2: Action & Status ──────────────────────────────────────────
-            // Connect / Disconnect Action Button
             GameObject btnRow = CloneRow(toggleTemplate ?? audioButton.gameObject, rowParent, "AP_ConnectRow");
             Button actionBtn = btnRow.GetComponentInChildren<Button>(true);
             if (actionBtn == null) actionBtn = btnRow.AddComponent<Button>();
@@ -145,7 +136,6 @@ namespace BoboBayArchipelago
                     ArchipelagoManager.Connect();
             });
 
-            // ── Section 3: Navigation Button Setup ─────────────────────────────────
             GameObject apButtonGo = UnityEngine.Object.Instantiate(audioButton.gameObject, audioButton.transform.parent);
             apButtonGo.name = "ArchipelagoButton";
             apButtonGo.SetActive(true);
@@ -181,8 +171,6 @@ namespace BoboBayArchipelago
             AddHideTab(controlsButton, apTab, apButton);
         }
 
-        // ── Helper Methods ───────────────────────────────────────────────────────
-
         private static void BuildInputFieldRow(
             string labelText, string initialValue, GameObject inputTemplate,
             GameObject fallbackTemplate, Transform parent, Action<string> onValueChanged)
@@ -193,7 +181,6 @@ namespace BoboBayArchipelago
             GameObject row = CloneRow(rowTemplate, parent, "Row_" + labelText);
             SetRowLabel(row, labelText);
 
-            // Attempt to resolve regular uGUI InputField or TMPro TMP_InputField reflectively
             Component inputComp = row.GetComponentInChildren<InputField>(true) as Component;
             if (inputComp == null) inputComp = FindInputFieldComponent(row);
 
@@ -201,7 +188,6 @@ namespace BoboBayArchipelago
             {
                 SetTextOn(inputComp, initialValue);
 
-                // Add listener dynamically based on available component reflection
                 var onEndEditProp = inputComp.GetType().GetProperty("onEndEdit");
                 if (onEndEditProp != null)
                 {

@@ -18,46 +18,37 @@ def create_itempool(world: "BoboWorld") -> List[Item]:
     goal_asset = get_goal_name(world)
     goal_event_name = "Beat Big Jam" if goal_asset == "BigJam_Race_D" else "Beat Power Gary"
 
-    # Add all unique items (excluding victory which is on the goal competition)
     for name, data in bobo_items.items():
         if name not in ("Victory", "Bobo Ticket", "Progressive Competitions"):
             itempool.append(create_item(world, name))
 
-    # pubworks stuff, gonna make it an option later
     for name in pubworks_items:
         itempool.append(create_item(world, name))
     
-    # bobo ticket logic stuff
     ticket_count = world.options.BoboTicketsRequired.value
     itempool += create_multiple_items(world, "Bobo Ticket", ticket_count, ItemClassification.progression)
 
-    # progressive competitions logic
     thresholds = get_competition_unlock_order(world)
     max_batch = max(thresholds.values()) if thresholds else 0
     itempool += create_multiple_items(world, "Progressive Competitions", max_batch, ItemClassification.progression)
 
-    # progressive sagas logic
     saga_thresholds = get_saga_unlock_order(world)
     max_saga_batch = max(saga_thresholds.values()) if saga_thresholds else 0
     itempool += create_multiple_items(world, "Progressive Sagas", max_saga_batch, ItemClassification.progression)
 
-    # place victory at the goal competition
     victory = create_item(world, "Victory")
     world.multiworld.get_location(goal_event_name, world.player).place_locked_item(victory)
 
-    # fill remainder of locations with junk
     needed_junk = get_total_locations(world) - len(itempool) - 1
     if needed_junk > 0:
         itempool += create_junk_items(world, needed_junk)
 
     return itempool
 
-# This is a generic function to create a singular item
 def create_item(world: "BoboWorld", name: str) -> Item:
     data = item_table[name]
     return BoboBayItem(name, data.classification, data.ap_code, world.player)
 
-# Another generic function. For creating a bunch of items at once!
 def create_multiple_items(world: "BoboWorld", name: str, count: int,
                           item_type: ItemClassification = ItemClassification.progression) -> List[Item]:
     data = item_table[name]
@@ -163,7 +154,6 @@ bobo_items = {
     "Victory":               ItemData(20050099, ItemClassification.progression),
 }
 
-# public works items
 pubworks_items = {
     "Public Works - Fix Benches":                       ItemData(20050600, ItemClassification.useful),
     "Public Works - Basketball Hoop":                   ItemData(20050601, ItemClassification.useful),
@@ -192,7 +182,6 @@ pubworks_items = {
     "Public Works - Fairy Garden":                      ItemData(20050624, ItemClassification.progression),
 }
 
-# junk item stuff again
 junk_items = {
     "300 money":                   ItemData(20050090, ItemClassification.filler, 0),
     "Banana Cream Pie":            ItemData(20050092, ItemClassification.filler, 0),

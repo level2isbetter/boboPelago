@@ -27,14 +27,12 @@ namespace BoboBayArchipelago
         {
             if (__instance == null) return;
 
-            // check if its a saga competition, then check saga lock status
             if (__instance.isSaga && __instance.saga != null)
             {
                 __result = !__instance.saga.locked;
                 return;
             }
 
-            // check if its the goal competition, then check tickets
             if (__instance.name == ArchipelagoItemHandler.GoalAssetName)
             {
                 __result = ArchipelagoItemHandler.BoboTicketsReceived >= ArchipelagoItemHandler.BoboTicketsRequired;
