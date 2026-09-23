@@ -32,6 +32,14 @@ namespace BoboBayArchipelago
             Dump(typeof(Item), "Despawn");
             Dump(typeof(Garden), "ItemInGarden");
         }
+
+        public static void PatchLogging()
+        {
+            if (!Plugin.DebugLoggingEnabled.Value) return;
+            
+            Plugin.Log?.LogInfo($"[Archipelago] Applied Snack Multiplier {ArchipelagoItemHandler.CurrentSnackMultiplier}x: Min={Common.DEFAULT_MINSTATUPDATE}, Max={Common.DEFAULT_MAXSTATUPDATE}");
+            Plugin.Log?.LogInfo($"[Archipelago] Unlimited Snacks set to {ArchipelagoItemHandler.UnlimitedSnacksEnabled}");
+        }
     }
 
     [HarmonyPatch(typeof(GardenManager), "Awake")]

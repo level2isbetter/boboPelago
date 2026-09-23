@@ -446,13 +446,11 @@ namespace BoboBayArchipelago
             CurrentSnackMultiplier = multiplier;
             Common.DEFAULT_MINSTATUPDATE = (int)(BaseMinStat * multiplier);
             Common.DEFAULT_MAXSTATUPDATE = (int)(BaseMaxStat * multiplier);
-            Plugin.Log?.LogInfo($"[Archipelago] Applied Snack Multiplier {multiplier}x: Min={Common.DEFAULT_MINSTATUPDATE}, Max={Common.DEFAULT_MAXSTATUPDATE}");
         }
 
         public static void SetUnlimitedSnacks(bool enabled)
         {
             UnlimitedSnacksEnabled = enabled;
-            Plugin.Log?.LogInfo($"[Archipelago] Unlimited Snacks set to {enabled}");
         }
 
         public static void SpawnItemByAsset(string assetName)
@@ -627,7 +625,6 @@ namespace BoboBayArchipelago
                     GrantMoney(300);
                     break;
                 case 20050099:
-                    // Plugin.Log?.LogInfo("[Archipelago] VICTORY item received! Congratulations!");
                     break;
                 default:
                     Plugin.Log?.LogWarning($"[Archipelago] Received unmapped item ID: {itemID}");
@@ -648,7 +645,7 @@ namespace BoboBayArchipelago
             if (project != null)
             {
                 purchasedCol.collection[project] = true;
-                Plugin.Log?.LogInfo($"[Archipelago] Activated Public Works: {project.titleKey}");
+                // Plugin.Log?.LogInfo($"[Archipelago] Activated Public Works: {project.titleKey}");
             }
         }
     }
