@@ -7,15 +7,13 @@ from .Options import get_goal_name
 if TYPE_CHECKING:
     from . import BoboWorld
 
-def did_include_extra_locations(world: "BoboWorld") -> bool:
-    return bool(world.options.ExtraLocations)
+def did_include_sagas(world: "BoboWorld") -> bool:
+    return bool(world.options.SagasEnabled)
+
 
 def get_total_locations(world: "BoboWorld") -> int:
     total = 0
     for name in location_table:
-        if not did_include_extra_locations(world) and name in extra_locations:
-            continue
-
         if is_valid_location(world, name):
             total += 1
 
@@ -27,7 +25,7 @@ def get_location_names() -> Dict[str, int]:
     return names
 
 def is_valid_location(world: "BoboWorld", name) -> bool:
-    if not did_include_extra_locations(world) and name in extra_locations:
+    if name in saga_locations and not did_include_sagas(world):
         return False
     if name in event_locations:
         goal_asset = get_goal_name(world)
@@ -294,8 +292,6 @@ pubworks_locations = {
     "Public Works - Fairy Garden":                      LocData(20050724, "Public Works", "PWP_SkyGarden"),
 }
 
-extra_locations = {}
-
 event_locations = {
     "Beat Big Jam":    LocData(None, "Competitions", "BigJam_Race_D", "D"),
     "Beat Power Gary": LocData(None, "Competitions", "Race_S_PowerGary", "S"),
@@ -305,6 +301,5 @@ location_table = {
     **bobo_locations,
     **saga_locations,
     **pubworks_locations,
-    **extra_locations,
     **event_locations,
 }

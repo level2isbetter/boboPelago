@@ -1,5 +1,5 @@
 from typing import Dict, List, TYPE_CHECKING
-from .Locations import location_table
+from .Locations import location_table, did_include_sagas
 from .Options import get_goal_name
 
 if TYPE_CHECKING:
@@ -65,10 +65,11 @@ def get_competition_unlock_order(world: "BoboWorld") -> Dict[str, int]:
     return thresholds
 
 def build_saga_unlock_order(world: "BoboWorld") -> Dict[str, int]:
-    batch_size = world.options.SagasPerUnlock.value
+    if not did_include_sagas(world):
+        return {}
     goal_saga = get_goal_saga(world)
     order = [s for s in SAGA_ORDER if s != goal_saga]
-    return {name: i // batch_size for i, name in enumerate(order)}
+    return {name: i for i, name in enumerate(order)}
 
 def get_saga_unlock_order(world: "BoboWorld") -> Dict[str, int]:
     if not hasattr(world, "_saga_unlock_cache"):

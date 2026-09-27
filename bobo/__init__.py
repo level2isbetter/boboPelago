@@ -1,3 +1,4 @@
+import logging
 from BaseClasses import Tutorial
 from worlds.AutoWorld import World, WebWorld
 from .Items import item_table, create_itempool, create_item
@@ -27,6 +28,14 @@ class BoboWorld(World):
     location_name_to_id = get_location_names()
 
     web = BoboWeb()
+
+    def gen_early(self) -> None:
+        if get_goal_name(self) == "Race_S_PowerGary" and not self.options.SagasEnabled:
+            logging.warning(
+                f"Bobo Bay ({self.player}): Goal is set to Power Gary, which requires sagas to be enabled."
+                f"Forcing SagasEnabled."
+            )
+            self.options.SagasEnabled.value = self.options.SagasEnabled.option_true
 
     def create_regions(self) -> None:
         create_regions(self)

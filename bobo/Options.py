@@ -21,17 +21,12 @@ def create_option_groups() -> List[OptionGroup]:
 class Goal(Choice):
     """
     Pick goal for the game. Big Jam for faster runs, Power Gary for longer runs.
+    If Power Gary is selected, Sagas will be forced on.
     """
     display_name = "Goal"
     option_big_jam = 0
     option_power_gary = 1
     default = 0
-
-class ExtraLocations(Toggle):
-    """
-    This will enable the extra locations option. Toggle is just true or false.
-    """
-    display_name = "Add Extra Locations"
 
 class BoboTicketsRequired(Range):
     """
@@ -49,7 +44,7 @@ class SnackMultiplier(Range):
     """
     display_name = "Snack Multiplier"
     range_start = 1
-    range_end = 100
+    range_end = 1000
     default = 1
 
 class UnlimitedSnacks(Toggle):
@@ -68,32 +63,27 @@ class CompetitionsPerUnlock(Range):
     range_end = 15
     default = 4
 
-class SagasPerUnlock(Range):
+class SagasEnabled(Toggle):
     """
     How many sagas unlock each time a Progressive Sagas item is received.
     """
-    display_name = "Sagas Per Unlock"
-    range_start = 1
-    range_end = 3
-    default = 1
+    display_name = "Enable Sagas"
 
 @dataclass
 class BoboOptions(PerGameCommonOptions):
     Goal:                        Goal
-    ExtraLocations:              ExtraLocations
     BoboTicketsRequired:         BoboTicketsRequired
     SnackMultiplier:             SnackMultiplier
     UnlimitedSnacks:             UnlimitedSnacks
     CompetitionsPerUnlock:       CompetitionsPerUnlock
-    SagasPerUnlock:              SagasPerUnlock
+    SagasEnabled:                SagasEnabled
 
 bobo_option_groups: Dict[str, List[Any]] = {
     "General Options": [Goal, 
         BoboTicketsRequired, 
         SnackMultiplier, 
         UnlimitedSnacks, 
-        ExtraLocations, 
         CompetitionsPerUnlock, 
-        SagasPerUnlock
+        SagasEnabled
     ],
 }
