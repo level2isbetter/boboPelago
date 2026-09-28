@@ -217,7 +217,7 @@ namespace BoboBayArchipelago
     {
         public const string PluginGuid = "com.bobobay.archipelago";
         public const string PluginName = "BoboBay.Archipelago";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "0.1.1";
 
         
         public static ManualLogSource Log { get; private set; }
@@ -385,7 +385,6 @@ namespace BoboBayArchipelago
             }
             
             ResetAndSyncPublicWorks();
-            ForceRefreshCompetitions();
             if(Plugin.DebugLoggingEnabled.Value) {Plugin.Log?.LogInfo($"[APDebug]: Sync Complete: Comps={ProgressiveCompetitionsReceived}, Sagas={ProgressiveSagasReceived}, Tickets={BoboTicketsReceived}, PWPs={ReceivedPWPItems.Count}"); }
         }
 
@@ -394,38 +393,18 @@ namespace BoboBayArchipelago
             // want to convert from unlocking competitions by rank
             // to unlocking sets of competitions to stagger the progression
             // ignore previous comments i did it yay
-            ForceRefreshCompetitions();
+            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug]: Granting Progressive Competitions (current={ProgressiveCompetitionsReceived})"); }
         }
 
         public static void GrantProgressiveSagas()
         {
-            ForceRefreshCompetitions();
+            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug]: Granting Progressive Sagas (current={ProgressiveSagasReceived})"); }
         }
 
         public static void SetBoboTicketsRequired(int required)
         {
             if (Plugin.BoboTicketsRequiredEntry != null)
                 Plugin.BoboTicketsRequiredEntry.Value = required;
-        }
-
-        public static void ForceRefreshCompetitions()
-        {
-            var organizer = UnityEngine.Object.FindObjectOfType(typeof(CompetitionOrganizer)) as CompetitionOrganizer;
-            if (organizer == null) return; // not in-game yet 
-
-            var garden = Garden.Current;
-            if (garden == null) return;
-
-            var flags = BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance;
-            var dateTimeSOField = typeof(Garden).GetField("_curDateTime", flags);
-            object dateTimeSO = dateTimeSOField?.GetValue(garden);
-            var valueProp = dateTimeSO?.GetType().GetProperty("Value", flags);
-            object currentDate = valueProp?.GetValue(dateTimeSO);
-            if (currentDate == null) return;
-
-            var method = typeof(CompetitionOrganizer).GetMethod("SetTodaysCompetitions", flags);
-            method?.Invoke(organizer, new object[] { currentDate });
-            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo("[APDebug]: Forced competition/saga refresh after loading thresholds."); }
         }
         
         public static void ApplySnackMultiplier(float multiplier)
