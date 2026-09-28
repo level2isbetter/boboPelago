@@ -46,6 +46,9 @@
     <Reference Include="UnityAtoms.UnityAtomsCore.Runtime">
       <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityAtoms.UnityAtomsCore.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(GameFolder)\Bobo Bay_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

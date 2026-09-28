@@ -1,5 +1,7 @@
 using System;
+using System.IO;
 using System.Reflection;
+using BobosWorld;
 using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
@@ -369,4 +371,66 @@ namespace BoboBayArchipelago
             return false;
         }
     }
+
+    public static class APTile
+    {
+        public const float Scale = 2.5f;
+        const float FillAlpha = 0.65f;
+        const float LogoAlpha = 0.35f;
+
+        static readonly Lazy<Sprite> _sprite = new Lazy<Sprite>(Load);
+        public static Sprite Sprite => _sprite.Value;
+
+        static Sprite Load()
+        {
+            string dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            string path = Path.Combine(dir, "ap_tile.png");
+            if (!File.Exists(path))
+            {
+                Plugin.Log?.LogWarning("[AP] ap_tile.png not found, competition tiles disabled");
+                return null;
+            }
+
+            var tex = new Texture2D(2, 2, TextureFormat.RGBA32, false) { wrapMode = TextureWrapMode.Repeat };
+            tex.LoadImage(File.ReadAllBytes(path));
+
+            var px = tex.GetPixels32();
+            for (int i = 0; i < px.Length; i++)
+            {
+                float logo = px[i].a / 255f * LogoAlpha;
+                float a = FillAlpha + logo * (1f - FillAlpha);
+                byte v = (byte)(255f * FillAlpha * (1f - logo) / a);
+                px[i] = new Color32(v, v, v, (byte)(a * 255f));
+            }
+            tex.SetPixels32(px);
+            tex.Apply();
+
+            return Sprite.Create(tex, new Rect(0, 0, tex.width, tex.height), new Vector2(0.5f, 0.5f),
+                100f, 0, SpriteMeshType.FullRect);
+        }
+    }
+
+    [HarmonyPatch(typeof(UICompCenterRecord), "SetUI")]
+    public static class CompCenterAPTilePatch
+    {
+        [HarmonyPostfix]
+        public static void Postfix(UICompCenterRecord __instance)
+        {
+            var t = Traverse.Create(__instance);
+            var so = t.Field("_so").GetValue<CompetitionSO>();
+            var tile = t.Field("_tileImage").GetValue<Image>();
+
+            if (t.Field("_index").GetValue<int>() != 0 || so == null || tile == null || APTile.Sprite == null) return;
+            if (!CompetitionLocations.All.TryGetValue(so.name, out long id) || !ArchipelagoManager.IsLocationChecked(id)) return;
+
+            tile.type = Image.Type.Tiled;
+            tile.pixelsPerUnitMultiplier = APTile.Scale;
+            tile.sprite = APTile.Sprite;
+
+            if (!so.today)
+                tile.color = new Color(tile.color.r, tile.color.g, tile.color.b, 0.12f);
+        }
+    }
+
+
 }
