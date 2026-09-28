@@ -135,7 +135,7 @@ namespace BoboBayArchipelago
         {
             var trav = Traverse.Create(__instance);
             var currentCompSO = trav.Field("_currentCompetitionSO").GetValue();
-            if (currentCompSO == null) { Plugin.Log?.LogInfo("[APDebug] _currentCompetitionSO is null"); return; }
+            if (currentCompSO == null) { return; }
 
             // calculate location ID based on competition SO
             // example: AP loc ID = 20000 + CompID
@@ -146,8 +146,6 @@ namespace BoboBayArchipelago
 
             if (innerSO == null) return;
             
-            // Plugin.Log?.LogInfo($"[APDebug] Competition asset name: '{currentCompSO}'");
-            // Plugin.Log?.LogInfo($"[APDebug] Inner SO: '{innerSO}' (type: {innerSO.GetType().Name})");
             foreach (var f in innerSO.GetType().GetFields(
                 BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.FlattenHierarchy))
             {
@@ -161,10 +159,9 @@ namespace BoboBayArchipelago
             
             if (!CompetitionLocations.All.TryGetValue(soName, out long locationID))
             {
-                Plugin.Log?.LogWarning($"[AP] No location ID mapped for competition: '{soName}'");
+                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogWarning($"[AP] No location ID mapped for competition: '{soName}'"); }
                 return;
             }
-            // Plugin.Log?.LogInfo($"[AP] Competition '{soName}' -> location {locationID}");
             ArchipelagoManager.CheckLocation(locationID);
 
             if (soName == ArchipelagoItemHandler.GoalAssetName) // bigjam or powergary rn
@@ -186,7 +183,7 @@ namespace BoboBayArchipelago
             if (PublicWorksLocations.All.TryGetValue(project.name, out long locationID))
             {
                 ArchipelagoManager.CheckLocation(locationID);
-                // Plugin.Log?.LogInfo($"[AP] Checked Public Works location: {project.name} ({locationID})");
+                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[AP] Checked Public Works location: {project.name} ({locationID})"); }
             }
 
             ArchipelagoItemHandler.MarkPWPCheckCompleted(project.name);
@@ -285,8 +282,6 @@ namespace BoboBayArchipelago
 
         private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
-            Plugin.Log?.LogInfo($"[Archipelago] Scene loaded: '{scene.name}' (Mode: {mode}).");
-
             if (scene.name == "Bay")
             {
                 ArchipelagoManager.IsInBay = true;
@@ -334,7 +329,7 @@ namespace BoboBayArchipelago
         public static void MarkPWPCheckCompleted(string pwpAssetName)
         {
             CompletedPWPChecks.Add(pwpAssetName);
-            Plugin.Log?.LogInfo($"[Archipelago] Public Works check completed: {pwpAssetName}");
+            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug]: Public Works check completed: {pwpAssetName}"); }
         }
 
         
@@ -391,7 +386,7 @@ namespace BoboBayArchipelago
             
             ResetAndSyncPublicWorks();
             ForceRefreshCompetitions();
-            Plugin.Log?.LogInfo($"[Archipelago] Sync Complete: Comps={ProgressiveCompetitionsReceived}, Sagas={ProgressiveSagasReceived}, Tickets={BoboTicketsReceived}, PWPs={ReceivedPWPItems.Count}");
+            if(Plugin.DebugLoggingEnabled.Value) {Plugin.Log?.LogInfo($"[APDebug]: Sync Complete: Comps={ProgressiveCompetitionsReceived}, Sagas={ProgressiveSagasReceived}, Tickets={BoboTicketsReceived}, PWPs={ReceivedPWPItems.Count}"); }
         }
 
         public static void GrantProgressiveCompetitions()
@@ -399,19 +394,12 @@ namespace BoboBayArchipelago
             // want to convert from unlocking competitions by rank
             // to unlocking sets of competitions to stagger the progression
             // ignore previous comments i did it yay
-            // Plugin.Log?.LogInfo($"[Archipelago] Progressive Competitions received ({ProgressiveCompetitionsReceived}).");
             ForceRefreshCompetitions();
         }
 
         public static void GrantProgressiveSagas()
         {
-            // Plugin.Log?.LogInfo($"[Archipelago] Progressive Sagas received ({ProgressiveSagasReceived}).");
             ForceRefreshCompetitions();
-        }
-
-        public static void GrantBoboTicket()
-        {
-            // Plugin.Log?.LogInfo($"[Archipelago] Bobo Ticket received ({BoboTicketsReceived}/{BoboTicketsRequired}).");
         }
 
         public static void SetBoboTicketsRequired(int required)
@@ -437,7 +425,7 @@ namespace BoboBayArchipelago
 
             var method = typeof(CompetitionOrganizer).GetMethod("SetTodaysCompetitions", flags);
             method?.Invoke(organizer, new object[] { currentDate });
-            // Plugin.Log?.LogInfo("[Archipelago] Forced competition/saga refresh after loading thresholds.");
+            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo("[APDebug]: Forced competition/saga refresh after loading thresholds."); }
         }
         
         public static void ApplySnackMultiplier(float multiplier)
@@ -460,14 +448,14 @@ namespace BoboBayArchipelago
 
             if (itemSO == null)
             {
-                Plugin.Log?.LogWarning($"[Archipelago] Could not find ItemScriptableObject for: '{assetName}'");
+                // Plugin.Log?.LogWarning($"[APDebug]: Could not find ItemScriptableObject for: '{assetName}'");
                 return;
             }
 
             var garden = BobosWorld.Garden.Current;
             if (garden == null)
             {
-                Plugin.Log?.LogWarning($"[Archipelago] Garden.Current is null; couldn't queue item '{assetName}'.");
+                // Plugin.Log?.LogWarning($"[APDebug]: Garden.Current is null; couldn't queue item '{assetName}'.");
                 return;
             }
 
@@ -477,7 +465,6 @@ namespace BoboBayArchipelago
                 .FirstOrDefault(t => t.Name == "ItemInGarden");
             if (itemInGardenType == null)
             {
-                Plugin.Log?.LogWarning("[Archipelago] Could not find type ItemInGarden.");
                 return;
             }
 
@@ -485,7 +472,6 @@ namespace BoboBayArchipelago
                 new[] { typeof(ItemScriptableObject), typeof(Vector4), typeof(int) }, null);
             if (ctor == null)
             {
-                Plugin.Log?.LogWarning("[Archipelago] Could not find ItemInGarden(ItemScriptableObject, Vector4, int) constructor.");
                 return;
             }
 
@@ -495,14 +481,13 @@ namespace BoboBayArchipelago
             object queue = queueField?.GetValue(garden);
             if (queue == null)
             {
-                Plugin.Log?.LogWarning("[Archipelago] Could not find _itemsToSpawnOnPlayer on Garden.Current.");
                 return;
             }
 
             var addMethod = queue.GetType().GetMethod("Add", flags, null, new[] { itemInGardenType }, null);
             if (addMethod == null)
             {
-                Plugin.Log?.LogWarning("[Archipelago] Could not find Add(ItemInGarden) on _itemsToSpawnOnPlayer.");
+                // Plugin.Log?.LogWarning("[APDebug]: Could not find Add(ItemInGarden) on _itemsToSpawnOnPlayer.");
                 return;
             }
 
@@ -513,7 +498,7 @@ namespace BoboBayArchipelago
             if (spawnItemsRoutine != null)
                 garden.StartCoroutine(spawnItemsRoutine);
 
-            Plugin.Log?.LogInfo($"[Archipelago] Queued item to spawn on player: '{itemSO.name}' ({itemSO.LocalizedName})");
+            Plugin.Log?.LogInfo($"[APDebug]: Queued item to spawn on player: '{itemSO.name}' ({itemSO.LocalizedName})");
         }
 
         public static int ApplyFoodModToCurrentGarden()
@@ -530,17 +515,14 @@ namespace BoboBayArchipelago
             foreach (var controller in controllerList)
             {
                 count++;
-                if (controller == null) { Plugin.Log?.LogWarning("[APDebug] FoodMod: null controller in list."); continue; }
-
-                Plugin.Log?.LogInfo($"[APDebug] FoodMod: controller type = {controller.GetType().FullName}");
+                if (controller == null) { continue; }
 
                 var boboMember = controller.GetType().GetProperty("Bobo", flags) as MemberInfo
                             ?? controller.GetType().GetField("Bobo", flags);
                 object bobo = boboMember == null ? null
                     : (boboMember is PropertyInfo bp ? bp.GetValue(controller) : ((FieldInfo)boboMember).GetValue(controller));
 
-                if (bobo == null) { Plugin.Log?.LogWarning($"[APDebug] FoodMod: no 'Bobo' member found on {controller.GetType().Name}, or its value was null."); continue; }
-                Plugin.Log?.LogInfo($"[APDebug] FoodMod: bobo type = {bobo.GetType().FullName}");
+                if (bobo == null) { continue; }
 
                 var dataMember = bobo.GetType().GetProperty("Data", flags) as MemberInfo
                             ?? bobo.GetType().GetField("Data", flags);
@@ -548,7 +530,6 @@ namespace BoboBayArchipelago
                     : (dataMember is PropertyInfo dp ? dp.GetValue(bobo) : ((FieldInfo)dataMember).GetValue(bobo));
 
                 if (data == null) { Plugin.Log?.LogWarning($"[APDebug] FoodMod: no 'Data' member found on {bobo.GetType().Name}, or its value was null."); continue; }
-                Plugin.Log?.LogInfo($"[APDebug] FoodMod: data type = {data.GetType().FullName}");
 
                 var foodModProp = data.GetType().GetProperty("FoodMod", flags);
                 if (foodModProp == null) { Plugin.Log?.LogWarning($"[APDebug] FoodMod: no 'FoodMod' property on {data.GetType().Name}."); continue; }
@@ -556,7 +537,7 @@ namespace BoboBayArchipelago
                 int before = (int)foodModProp.GetValue(data);
                 foodModProp.SetValue(data, 999);
                 int after = (int)foodModProp.GetValue(data);
-                Plugin.Log?.LogInfo($"[APDebug] FoodMod: set on {bobo.GetType().Name} — before={before}, after={after}");
+                // Plugin.Log?.LogInfo($"[APDebug] FoodMod: set on {bobo.GetType().Name} — before={before}, after={after}");
             }
 
             if (count > 0) Plugin.Log?.LogInfo($"[APDebug] FoodMod: applied to {count} controller(s).");
@@ -568,7 +549,7 @@ namespace BoboBayArchipelago
             var save = SaveSystem.Instance;
             if (save == null)
             {
-                Plugin.Log?.LogWarning("Archipelago: SaveSystem.Instance not ready yet, can't grant money.");
+                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogWarning("[APDebug]: SaveSystem.Instance not ready yet, can't grant money."); }
                 return;
             }
 
@@ -576,7 +557,7 @@ namespace BoboBayArchipelago
             object moneyVar = moneyField?.GetValue(save);
             if (moneyVar == null)
             {
-                Plugin.Log?.LogError("Archipelago: couldn't find _money field on SaveSystem.");
+                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogError("[APDebug]: couldn't find _money field on SaveSystem."); }
                 return;
             }
 
@@ -593,7 +574,6 @@ namespace BoboBayArchipelago
             }
 
             save.SaveMoney();
-            // Plugin.Log?.LogInfo($"[Archipelago] Granted {amount} bobo bucks.");
         }
 
         public static void GrantReceivedItem(long itemID)
@@ -619,7 +599,6 @@ namespace BoboBayArchipelago
                     GrantProgressiveSagas();
                     break;
                 case BoboTicketId:
-                    GrantBoboTicket();
                     break;
                 case 20050090:
                     GrantMoney(300);
@@ -627,7 +606,7 @@ namespace BoboBayArchipelago
                 case 20050099:
                     break;
                 default:
-                    Plugin.Log?.LogWarning($"[Archipelago] Received unmapped item ID: {itemID}");
+                    if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogWarning($"[APDebug]: Received unmapped item ID: {itemID}"); }
                     break;
             }
         }
@@ -645,7 +624,7 @@ namespace BoboBayArchipelago
             if (project != null)
             {
                 purchasedCol.collection[project] = true;
-                // Plugin.Log?.LogInfo($"[Archipelago] Activated Public Works: {project.titleKey}");
+                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug] Activated Public Works: {project.titleKey}"); }
             }
         }
     }
@@ -670,7 +649,7 @@ namespace BoboBayArchipelago
             {
                 var item = helper.AllItemsReceived[(int)ArchipelagoItemHandler.CurrentItemIndex];
                 
-                Plugin.Log?.LogInfo($"[Archipelago] Processing item ID {item.ItemId} at index {ArchipelagoItemHandler.CurrentItemIndex}");
+                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug]: Processing item ID {item.ItemId} at index {ArchipelagoItemHandler.CurrentItemIndex}"); }
                 PendingItems.Enqueue(item.ItemId);
 
                 ArchipelagoItemHandler.CurrentItemIndex++;
@@ -710,13 +689,13 @@ namespace BoboBayArchipelago
         {
             if (_session == null || !IsConnected)
             {
-                Plugin.Log?.LogWarning("[Archipelago] Tried to send goal completion while disconnected.");
+                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogWarning("[APDebug]: Tried to send goal completion while disconnected."); }
                 return;
             }
 
             var packet = new StatusUpdatePacket { Status = ArchipelagoClientState.ClientGoal };
             _session.Socket.SendPacket(packet);
-            // Plugin.Log?.LogInfo("[Archipelago] Sent goal completion (ClientGoal) to server.");
+            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo("[APDebug]: Sent goal completion (ClientGoal) to server."); }
         }
 
         private static Dictionary<string, int> ParseThresholds(object raw)
@@ -738,7 +717,7 @@ namespace BoboBayArchipelago
                 return result;
             }
 
-            Plugin.Log?.LogWarning($"[Archipelago] Unrecognized threshold payload type: {raw.GetType().FullName}");
+            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogWarning($"[APDebug]: Unrecognized threshold payload type: {raw.GetType().FullName}"); }
             return result;
         }
 
@@ -780,13 +759,11 @@ namespace BoboBayArchipelago
                         {
                             ArchipelagoItemHandler.CurrentItemIndex = 0;
                             _session.DataStorage[Scope.Slot, "new_item_index"] = 0L;
-                            // Plugin.Log?.LogInfo("[Archipelago] No stored item index found; starting at index 0.");
                         }
 
                         if (success.SlotData.TryGetValue("goal_asset_name", out object goalObj))
                         {
                             ArchipelagoItemHandler.GoalAssetName = goalObj.ToString() ?? "BigJam_Race_D";
-                            // Plugin.Log?.LogInfo($"[Archipelago] Goal for this seed: {ArchipelagoItemHandler.GoalAssetName}");
                         }
                         if (success.SlotData.TryGetValue("goal_saga_name", out object goalSagaObj))
                         {
@@ -809,12 +786,10 @@ namespace BoboBayArchipelago
                         if (success.SlotData.TryGetValue("competition_unlock_thresholds", out object thresholdsObj))
                         {
                             ArchipelagoItemHandler.CompetitionUnlockThresholds = ParseThresholds(thresholdsObj);
-                            // Plugin.Log?.LogInfo($"[Archipelago] Loaded {ArchipelagoItemHandler.CompetitionUnlockThresholds.Count} competition unlock threshold(s).");
                         }
                         if (success.SlotData.TryGetValue("saga_unlock_thresholds", out object sagaThresholdsObj))
                         {
                             ArchipelagoItemHandler.SagaUnlockThresholds = ParseThresholds(sagaThresholdsObj);
-                            // Plugin.Log?.LogInfo($"[Archipelago] Loaded {ArchipelagoItemHandler.SagaUnlockThresholds.Count} saga unlock threshold(s).");
                         }
 
                         _session.Items.ItemReceived += OnItemReceived;
@@ -825,14 +800,14 @@ namespace BoboBayArchipelago
                     {
                         var failure = (LoginFailure)result;
                         IsConnected = false;
-                        UpdateStatus($"[Archipelago] Connection Failed: " + string.Join(", ", failure.Errors));
+                        UpdateStatus($"[APDebug]: Connection Failed: " + string.Join(", ", failure.Errors));
                     }
                 }
                 catch (Exception ex)
                 {
                     IsConnected = false;
-                    UpdateStatus($"[Archipelago] Connection Failed: {ex.Message}");
-                    Plugin.Log?.LogError($"[Archipelago] Archipelago connection exception: {ex}");
+                    UpdateStatus($"[APDebug]: Connection Failed: {ex.Message}");
+                    if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogError($"[APDebug] Archipelago connection exception: {ex}"); }
                 }
             });
         }
@@ -846,14 +821,14 @@ namespace BoboBayArchipelago
 
         public static void CheckLocation(long locationId)
         {
-            if (!IsConnected) { Plugin.Log?.LogWarning($"Location {locationId} checked while offline."); return; }
+            if (!IsConnected && Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogWarning($"Location {locationId} checked while offline."); return; }
             _session.Locations.CompleteLocationChecks(locationId);
         }
 
         private static void UpdateStatus(string message)
         {
             StatusMessage = message;
-            Plugin.Log?.LogInfo($"[Archipelago] Archipelago Status: {message}");
+            if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug]: Archipelago Status: {message}"); }
         }
     }
 }

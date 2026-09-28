@@ -37,8 +37,8 @@ namespace BoboBayArchipelago
         {
             if (!Plugin.DebugLoggingEnabled.Value) return;
             
-            Plugin.Log?.LogInfo($"[Archipelago] Applied Snack Multiplier {ArchipelagoItemHandler.CurrentSnackMultiplier}x: Min={Common.DEFAULT_MINSTATUPDATE}, Max={Common.DEFAULT_MAXSTATUPDATE}");
-            Plugin.Log?.LogInfo($"[Archipelago] Unlimited Snacks set to {ArchipelagoItemHandler.UnlimitedSnacksEnabled}");
+            Plugin.Log?.LogInfo($"[APDebug]: Applied Snack Multiplier {ArchipelagoItemHandler.CurrentSnackMultiplier}x: Min={Common.DEFAULT_MINSTATUPDATE}, Max={Common.DEFAULT_MAXSTATUPDATE}");
+            Plugin.Log?.LogInfo($"[APDebug]: Unlimited Snacks set to {ArchipelagoItemHandler.UnlimitedSnacksEnabled}");
         }
     }
 
