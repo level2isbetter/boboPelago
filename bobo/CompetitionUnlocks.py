@@ -75,20 +75,3 @@ def get_saga_unlock_order(world: "BoboWorld") -> Dict[str, int]:
     if not hasattr(world, "_saga_unlock_cache"):
         world._saga_unlock_cache = build_saga_unlock_order(world)
     return world._saga_unlock_cache
-
-def get_competition_unlock_order(world: "BoboWorld") -> Dict[str, int]:
-    batch_size = world.options.CompetitionsPerUnlock.value
-    goal_asset = get_goal_name(world)
-
-    thresholds: Dict[str, int] = {}
-    batch_offset = 0
-    for rank in RANK_ORDER:
-        names = [
-            data.asset_name for data in location_table.values()
-            if data.rank == rank and data.asset_name and data.asset_name != goal_asset
-        ]
-        for i, name in enumerate(names):
-            thresholds[name] = batch_offset + (i // batch_size)
-        if names:
-            batch_offset += ((len(names) - 1) // batch_size) + 1
-    return thresholds

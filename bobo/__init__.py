@@ -53,7 +53,7 @@ class BoboWorld(World):
         return {
             "goal_asset_name":                          get_goal_name(self),
             "goal_saga_name":                           get_goal_saga(self) or "",
-            "bobo_tickets_req":                         self.options.BoboTicketsRequired.value,
+            "bobo_tickets_required":                    self.options.BoboTicketsRequired.value,
             "competition_unlock_thresholds":            get_competition_unlock_order(self),
             "snack_multiplier": getattr(self.options, "SnackMultiplier", 1).value
             if hasattr(self.options, "SnackMultiplier") else 1,
