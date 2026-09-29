@@ -137,8 +137,6 @@ namespace BoboBayArchipelago
             var currentCompSO = trav.Field("_currentCompetitionSO").GetValue();
             if (currentCompSO == null) { return; }
 
-            // calculate location ID based on competition SO
-            // example: AP loc ID = 20000 + CompID
             var innerSO = Traverse.Create(__instance)
                 .Field("_currentCompetitionSO")
                 .Field("so")
@@ -191,6 +189,10 @@ namespace BoboBayArchipelago
             var fundField = Traverse.Create(__instance).Field("_publicFund").GetValue<IntVariable>();
             int cost = project.cost != null ? project.cost.Value : Common.DEFAULT_PWPCOST;
             fundField?.Subtract(cost);
+
+            var toPurchaseLists = Resources.FindObjectsOfTypeAll<UnityAtoms.BobosWorld.PublicWorksProjectSOValueList>();
+            var toPurchase = toPurchaseLists.FirstOrDefault(l => l.name == "Public Works Projects TOPurchase");
+            toPurchase?.Remove(project);
 
             Traverse.Create(__instance).Field("_purchaseSound").Method("Play2D").GetValue();
             var uiPWP = Traverse.Create(__instance).Field("_uiPublicWorks").GetValue<UIPublicWorksProjects>();
@@ -351,21 +353,18 @@ namespace BoboBayArchipelago
             if (purchasedCol == null || purchasedCol.collection == null) return;
 
             var keys = purchasedCol.collection.Keys.ToList();
-            foreach (var key in keys)
-            {
-                purchasedCol.collection[key] = false;
-            }
 
             var toPurchaseLists = Resources.FindObjectsOfTypeAll<UnityAtoms.BobosWorld.PublicWorksProjectSOValueList>();
             var toPurchase = toPurchaseLists.FirstOrDefault(l => l.name == "Public Works Projects TOPurchase");
             toPurchase?.Clear();
 
-            foreach (var pwpName in ReceivedPWPItems)
+            foreach (var project in keys)
             {
-                var project = keys.FirstOrDefault(k => k.name == pwpName);
-                if (project != null)
+                purchasedCol.collection[project] = ReceivedPWPItems.Contains(project.name);
+
+                if (!IsPWPCheckCompleted(project.name))
                 {
-                    purchasedCol.collection[project] = true;
+                    toPurchase?.Add(project);
                 }
             }
         }
@@ -596,8 +595,6 @@ namespace BoboBayArchipelago
 
             var collections = Resources.FindObjectsOfTypeAll<PublicWorksProjectCollectionSO>();
             var purchasedCol = collections.FirstOrDefault(c => c.name == "Public Works Projects Purchased");
-            
-            if (purchasedCol == null) return;
             var project = purchasedCol.collection.Keys.FirstOrDefault(p => p.name == pwpAssetName);
             
             if (project != null)
