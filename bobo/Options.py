@@ -65,7 +65,7 @@ class CompetitionsPerUnlock(Range):
 
 class SagasEnabled(Toggle):
     """
-    How many sagas unlock each time a Progressive Sagas item is received.
+    Whether or not sagas are enabled / within logic. If you selected power gary, this option will be forced on.
     """
     display_name = "Enable Sagas"
 

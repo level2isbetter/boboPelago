@@ -178,6 +178,15 @@ namespace BoboBayArchipelago
             var project = Traverse.Create(__instance).Field("_publicWorksProject").GetValue<PublicWorksProjectSO>();
             if (project == null) return true;
             
+            if (ArchipelagoItemHandler.IsPWPCheckCompleted(project.name))
+            {
+                Traverse.Create(__instance).Field("_uiPublicWorks").GetValue<UIPublicWorksProjects>()?.RemoveRecord(project);
+                __instance.gameObject.SetActive(false);
+                return false;
+            }
+
+            ArchipelagoItemHandler.ApplyPWPPurchasedFlags();
+
             if (PublicWorksLocations.All.TryGetValue(project.name, out long locationID))
             {
                 ArchipelagoManager.CheckLocation(locationID);
@@ -201,6 +210,20 @@ namespace BoboBayArchipelago
             
             return false;
         }
+    }
+
+    [HarmonyPatch(typeof(UIPublicWorksProjects), "OnEnable")]
+    public static class PWPMenuOpenPatch
+    {
+        [HarmonyPrefix]
+        public static void Prefix() => ArchipelagoItemHandler.SetPWPMenuOpen(true);
+    }
+
+    [HarmonyPatch(typeof(UIPublicWorksProjects), "OnDisable")]
+    public static class PWPMenuClosePatch
+    {
+        [HarmonyPostfix]
+        public static void Postfix() => ArchipelagoItemHandler.SetPWPMenuOpen(false);
     }
 
     [HarmonyPatch(typeof(SaveSystem), "LoadData")]
@@ -269,6 +292,8 @@ namespace BoboBayArchipelago
             Log.LogInfo($"{PluginName} v{PluginVersion} initialized successfully.");
         }
 
+        private float _pwpTimer;
+
         private void Update()
         {
 
@@ -279,6 +304,13 @@ namespace BoboBayArchipelago
                 if (ArchipelagoItemHandler.ApplyFoodModToCurrentGarden() > 0){
                     _foodModPending = false;
                 }
+            }
+
+            _pwpTimer += Time.deltaTime;
+            if (_pwpTimer >= 0.5f)
+            {
+                _pwpTimer = 0f;
+                ArchipelagoItemHandler.HideCompletedPWPRecords();
             }
         }
 
@@ -346,25 +378,56 @@ namespace BoboBayArchipelago
             return false;
         }
 
+        public static bool PWPMenuOpen { get; private set; }
+
+        public static void SetPWPMenuOpen(bool open)
+        {
+            PWPMenuOpen = open;
+            ApplyPWPPurchasedFlags();
+        }
+
+        public static void ApplyPWPPurchasedFlags()
+        {
+            var col = Resources.FindObjectsOfTypeAll<PublicWorksProjectCollectionSO>()
+                .FirstOrDefault(c => c.name == "Public Works Projects Purchased");
+            if (col?.collection == null) return;
+
+            foreach (var project in col.collection.Keys.ToList())
+            {
+                bool received = ReceivedPWPItems.Contains(project.name);
+                bool offerForPurchase = PWPMenuOpen && received && !IsPWPCheckCompleted(project.name);
+
+                col.collection[project] = received && !offerForPurchase;
+            }
+        }
+
         public static void ResetAndSyncPublicWorks()
         {
-            var collections = Resources.FindObjectsOfTypeAll<PublicWorksProjectCollectionSO>();
-            var purchasedCol = collections.FirstOrDefault(c => c.name == "Public Works Projects Purchased");
-            if (purchasedCol == null || purchasedCol.collection == null) return;
-
-            var keys = purchasedCol.collection.Keys.ToList();
 
             var toPurchaseLists = Resources.FindObjectsOfTypeAll<UnityAtoms.BobosWorld.PublicWorksProjectSOValueList>();
             var toPurchase = toPurchaseLists.FirstOrDefault(l => l.name == "Public Works Projects TOPurchase");
             toPurchase?.Clear();
 
-            foreach (var project in keys)
-            {
-                purchasedCol.collection[project] = ReceivedPWPItems.Contains(project.name);
+            ApplyPWPPurchasedFlags();
+        }
 
-                if (!IsPWPCheckCompleted(project.name))
+        public static void HideCompletedPWPRecords()
+        {
+            var uis = UnityEngine.Object.FindObjectsOfType<UIPublicWorksProjects>();
+            if (uis.Length == 0) return;
+
+            var col = Resources.FindObjectsOfTypeAll<PublicWorksProjectCollectionSO>()
+                .FirstOrDefault(c => c.name == "Public Works Projects Purchased");
+            if (col?.collection == null) return;
+
+            foreach (var project in col.collection.Keys.ToList())
+            {
+                if (project == null || ReceivedPWPItems.Contains(project.name)) continue;
+                if (!IsPWPCheckCompleted(project.name)) continue;
+
+                foreach (var ui in uis)
                 {
-                    toPurchase?.Add(project);
+                    try { ui.RemoveRecord(project); } catch { }
                 }
             }
         }
@@ -611,25 +674,28 @@ namespace BoboBayArchipelago
         private static volatile bool _pendingSync;
         public static ArchipelagoSession Session => _session;
         public static bool IsInBay { get;set; }
+        private static readonly object _itemLock = new object();
 
         public static int CountReceived(long itemId)
         {
             return _session?.Items.AllItemsReceived.Count(i => i.ItemId == itemId) ?? 0;
         }
 
-        private static void OnItemReceived(ReceivedItemsHelper helper)
+        private static void OnItemReceived(IReceivedItemsHelper helper)
         {
-            _pendingSync = true;
 
-            while (helper.AllItemsReceived.Count > ArchipelagoItemHandler.CurrentItemIndex)
-            {
-                var item = helper.AllItemsReceived[(int)ArchipelagoItemHandler.CurrentItemIndex];
-                
-                if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug]: Processing item ID {item.ItemId} at index {ArchipelagoItemHandler.CurrentItemIndex}"); }
-                PendingItems.Enqueue(item.ItemId);
+            lock (_itemLock) {
+                _pendingSync = true;
+                while (helper.AllItemsReceived.Count > ArchipelagoItemHandler.CurrentItemIndex)
+                {
+                    var item = helper.AllItemsReceived[(int)ArchipelagoItemHandler.CurrentItemIndex];
+                    
+                    if(Plugin.DebugLoggingEnabled.Value) { Plugin.Log?.LogInfo($"[APDebug]: Processing item ID {item.ItemId} at index {ArchipelagoItemHandler.CurrentItemIndex}"); }
+                    PendingItems.Enqueue(item.ItemId);
 
-                ArchipelagoItemHandler.CurrentItemIndex++;
-                _session.DataStorage[Scope.Slot, "new_item_index"] = ArchipelagoItemHandler.CurrentItemIndex;
+                    ArchipelagoItemHandler.CurrentItemIndex++;
+                    _session.DataStorage[Scope.Slot, "new_item_index"] = ArchipelagoItemHandler.CurrentItemIndex;
+                }
             }
         }
 
@@ -649,6 +715,7 @@ namespace BoboBayArchipelago
         public static void ProcessPendingItems()
         {
             if (!IsInBay) return;
+            if (Garden.Current == null || SaveSystem.Instance == null) return;
 
             while (PendingItems.TryDequeue(out long itemId))
             {
@@ -769,6 +836,7 @@ namespace BoboBayArchipelago
                         }
 
                         _session.Items.ItemReceived += OnItemReceived;
+                        OnItemReceived(_session.Items);
 
                         RequestSync();
                     }

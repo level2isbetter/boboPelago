@@ -290,6 +290,11 @@ pubworks_locations = {
     "Public Works - Costume Shop":                      LocData(20050722, "Public Works", "PWP_CostumeShop"),
     "Public Works - Original Bobo Statue":              LocData(20050723, "Public Works", "PWP_OriginalBoboStatue"),
     "Public Works - Fairy Garden":                      LocData(20050724, "Public Works", "PWP_SkyGarden"),
+    "Public Works - Snack Shop Open at Night":          LocData(20050725, "Public Works", "PWP_SnackShopOpenAtNight"),
+    "Public Works - Kelp Thrift Renovation":            LocData(20050726, "Public Works", "PWP_KelpThriftRenovation"),
+    "Public Works - Fancy Shop":                        LocData(20050727, "Public Works", "PWP_FancyShop"),
+    "Public Works - Exhibitions Terminal":              LocData(20050728, "Public Works", "PWP_ExhibitionsTerminal"),
+    "Public Works - Rainbow in Garden":                 LocData(20050729, "Public Works", "PWP_RainbowInGarden"),
 }
 
 event_locations = {

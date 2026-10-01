@@ -300,7 +300,12 @@ namespace BoboBayArchipelago
             { 20050621, "PWP_AnimalCrackerShop" },
             { 20050622, "PWP_CostumeShop" },
             { 20050623, "PWP_OriginalBoboStatue" },
-            { 20050624, "PWP_SkyGarden" }
+            { 20050624, "PWP_SkyGarden" },
+            { 20050625, "PWP_SnackShopOpenAtNight" },
+            { 20050626, "PWP_KelpThriftRenovation" },
+            { 20050627, "PWP_FancyShop" },
+            { 20050628, "PWP_ExhibitionsTerminal" },
+            { 20050629, "PWP_RainbowInGarden" },
         };
     }
 
